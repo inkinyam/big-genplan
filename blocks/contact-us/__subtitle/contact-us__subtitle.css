@@ -14,3 +14,10 @@
     line-height: 48px;
   }
 }
+
+@media screen and (max-width: 370px) {
+  .contact-us__subtitle{
+    font-size: 26px;
+    line-height: 40px;
+  }
+}

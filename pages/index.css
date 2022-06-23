@@ -123,6 +123,7 @@
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__card/services__card.css);
 @import url(../blocks/services/__link/services__link.css);
+@import url(../blocks/services/__list/services__list.css);
 
 /*FORM*/
 @import url(../blocks/form/form.css);

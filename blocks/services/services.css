@@ -1,4 +1,4 @@
-.services__cards {
+.services_v_desctop {
   border: 0.3px solid rgba(167, 166, 181, 0.3);
   margin: 0 5%;
   display: grid;
@@ -8,12 +8,30 @@
   list-style: none;
 }
 
+.services_v_mobile {
+  display: none;
+  flex-direction: column;
+}
+
+
 @media screen and (max-width: 1180px) {
-  .services__cards  {
+  .services_v_desctop  {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3, fit-content);
   }
 }
+
+@media screen and (max-width: 900px) {
+  .services_v_desctop  {
+    display: none;
+  }
+  
+  .services_v_mobile {
+    display: flex;
+  }
+}
+
+
 
 

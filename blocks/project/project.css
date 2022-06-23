@@ -13,4 +13,8 @@
   .project .links {
     margin: 0;
   }
+
+  .project .section__title {
+    margin: 64px 0 36px 0;
+  }
 }

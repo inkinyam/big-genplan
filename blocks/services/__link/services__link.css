@@ -1,3 +1,14 @@
 .services__link {
   text-decoration: none;
 }
+
+
+.services_v_mobile .services__link {
+  text-decoration: none;
+  color: #2D8BF1;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  max-width: 90%;
+}

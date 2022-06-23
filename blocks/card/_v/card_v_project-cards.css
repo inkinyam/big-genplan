@@ -42,6 +42,7 @@
   .card_v_project-cards {
     grid-template-columns: 1fr ;
     grid-template-rows: min-content min-content 1fr ;
+    padding: 0 ;
   }
 
   .card_v_project-cards-right, .card_v_project-cards-left {

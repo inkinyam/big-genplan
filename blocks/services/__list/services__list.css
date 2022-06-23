@@ -1,0 +1,14 @@
+.services__list {
+  margin: 0;
+  list-style: none;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+.servives__item {
+  margin-bottom: 16px;
+}
+
+.servives__item:last-of-type {
+  margin-bottom: 44px;
+}
