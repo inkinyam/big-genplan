@@ -1,0 +1,5 @@
+.form__input_type_err {
+  background-image: url(../../../../images/err.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}

@@ -1,0 +1,12 @@
+.links__select {
+  display: flex;
+  flex-direction: row;
+  margin-right: 32px;
+}
+
+@media screen and (max-width: 1080px) {
+  .links__select {
+    flex-direction: column;
+    margin: 24px 0 32px 0;
+  }
+}

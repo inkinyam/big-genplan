@@ -1,0 +1,25 @@
+.services__card {
+  background-color: #ffffff;
+  color: #201E33;
+  stroke: #201E33;
+  transition: all 0.2s ease-in-out;
+}
+
+.services__card:hover {
+  background-color: #2D8BF1;
+  stroke: #ffffff;
+  fill: #fff;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+}
+
+.services__card:hover .card__text{
+   color: #ffffff;
+}
+
+.services__card:hover .card__title{
+  color: #ffffff;
+}
+
+.services__card:nth-of-type(6) .card__title {
+  margin: auto;
+}

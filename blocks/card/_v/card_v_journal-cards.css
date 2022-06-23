@@ -1,0 +1,25 @@
+.card_v_journal-cards {
+  grid-template-areas: 
+                      'info'
+                      'photo'
+                      'title'
+                      'text';
+
+}
+
+.card_v_journal-cards:hover img{
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+  transform: scale(1.05);
+}
+
+.card_v_journal-cards .card__img-wrapper {
+  height: 384px;
+}
+
+
+@media screen and (max-width: 1240px) {
+  .card_v_journal-cards .card__img-wrapper {
+    height: 327px;
+  }
+}
+

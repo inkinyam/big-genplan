@@ -1,0 +1,21 @@
+.project {
+  position: relative;
+}
+
+.project .card__img-wrapper {
+ width: 50%;
+}
+
+.project .card__description {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 45px 87px 0;
+  max-height: 334px;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .project .links {
+    margin: 0;
+  }
+}

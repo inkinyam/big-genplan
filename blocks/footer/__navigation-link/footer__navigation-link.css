@@ -1,0 +1,16 @@
+.footer__navigation-link {
+  color:#A7A6B5;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.footer__navigation-link:hover {
+  color: #F0F0F4;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+}
+
+.footer__navigation-link:active {
+  color: #FFFFFF;
+}

@@ -1,0 +1,11 @@
+.card_v_services-cards {
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 40px 42px 32px 40px ;
+  border: 0.3px solid rgba(167, 166, 181, 0.30);
+  height: 100%;
+  border-collapse: collapse;
+}
+
+
+

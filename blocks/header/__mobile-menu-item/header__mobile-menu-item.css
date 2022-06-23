@@ -1,0 +1,24 @@
+.header__mobile-menu-item {
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+
+.header__mobile-menu-item:last-of-type {
+  margin-bottom: 12px;
+}
+
+.header__mobile-menu-item:hover {
+  color: #5A6FDD;
+  cursor: url(../../../image/Cursor\ –\ Hand.svg), pointer;
+}
+
+.header__mobile-menu-item:active {
+  color: #5265CB;
+}

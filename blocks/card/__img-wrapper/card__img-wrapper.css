@@ -1,0 +1,4 @@
+.card__img-wrapper {
+  grid-area: photo;
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+.lead__buttons-block {
+  display: flex;
+  flex-direction: row;
+  margin-top: 42px;
+  justify-content: center;
+  width: 100%;
+  padding-right: 64px;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .lead__buttons-block{
+    flex-direction: column-reverse;
+    padding-right: 0;
+    margin-top: 24px;
+  }
+}
+

@@ -1,0 +1,15 @@
+.lead__img {
+  grid-row: 1;
+  grid-column: 1;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  max-height: 714px;
+}
+
+@media screen and (max-width: 1240px) {
+  .lead__img{
+    height: 675px;
+  }
+}
+

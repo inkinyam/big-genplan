@@ -1,0 +1,30 @@
+.lead__button{
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  fill:#F6F6F7;
+  stroke:#201E33;
+  transition: all 0.2s ease-in-out;
+}
+.lead__button circle {
+  stroke:#F6F6F7;
+}
+
+.lead__button:hover{
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+  color: #106CD1;
+  stroke: #F6F6F7;
+  fill: #313041;
+  color: #F6F6F7;
+}
+
+.lead__button:hover circle {
+  stroke: #313041;
+}
+
+.lead__button:active{
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+   stroke: #F6F6F7;
+  fill: #201E33;
+}

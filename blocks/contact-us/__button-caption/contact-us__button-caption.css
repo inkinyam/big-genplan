@@ -1,0 +1,14 @@
+.contact-us__button-caption {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+  margin: 0 15px 0 0;
+}
+
+@media screen and (max-width: 960px) {
+  .contact-us__button-caption {
+    padding-top: 24px;
+    font-size: 20px;
+  }
+}

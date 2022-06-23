@@ -1,0 +1,16 @@
+.wrapper{
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 80px;
+  
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 80px auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .wrapper{
+    row-gap: 48px;
+    margin: 48px auto;
+  }
+}

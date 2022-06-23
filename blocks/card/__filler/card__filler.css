@@ -1,0 +1,6 @@
+.card__filler {
+  flex-shrink: 1;
+  border-bottom: 1px solid #2D8BF1;
+  margin: 0 8px;
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+.form__check-description {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+  font-family: 'Lora';
+  width: 90%;
+}
+
+@media screen and (max-width: 960px) {
+  .form__check-description  {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,5 @@
+
+.form__check-box{
+  display: flex;
+  flex-direction: row;
+}

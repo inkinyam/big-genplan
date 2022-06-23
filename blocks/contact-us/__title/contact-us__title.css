@@ -1,0 +1,17 @@
+.contact-us__title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 52px;
+  line-height: 72px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 960px) {
+  .contact-us__title {
+    font-size: 34px;
+    line-height: 48px;
+  }
+}

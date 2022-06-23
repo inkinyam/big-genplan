@@ -1,0 +1,11 @@
+.lead__content {
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 222;
+
+  width: 80%;
+  max-width: 1138px;
+  min-width: 284px;
+  object-fit: cover;
+  margin: auto;
+}

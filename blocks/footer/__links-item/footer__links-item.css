@@ -1,0 +1,38 @@
+.footer__links-item {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color:#A7A6B5;
+ 
+}
+
+.footer__links-item:hover {
+  color: #F0F0F4;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+}
+
+.footer__links-item:active {
+  color: #fff;
+}
+
+.footer__links-item:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 960px) {
+  .footer__links-item  {
+    width: 444px;
+  }
+  .footer__links-item:last-child  {
+    width: 470px;
+  }
+}
+
+
+@media screen and (max-width: 960px) {
+  .footer__links-item:first-of-type  {
+    margin-bottom: 26px;
+    margin-right: 0;
+  }
+}
+

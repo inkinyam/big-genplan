@@ -1,0 +1,13 @@
+.card__text {
+  grid-area: text;
+  margin: 0;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #201E33;
+  max-width: 100%;
+  transition: all 0.3s ease;
+}
+

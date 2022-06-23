@@ -1,0 +1,20 @@
+.form__title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0 0 56px 0 ;
+}
+
+.form__title:last-of-type{
+margin-top: 40px;
+}
+
+@media screen and (max-width: 960px) {
+  .form__title  {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0 0 28px 0 ;
+  }
+}

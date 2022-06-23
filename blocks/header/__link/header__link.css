@@ -1,0 +1,23 @@
+.header__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+  stroke: black;
+  transition: all 0.2s ease-in-out;
+ text-align: center;
+}
+
+.header__link:hover {
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+  color: #106CD1;
+  fill: #106CD1;
+  stroke: #106CD1;
+}
+
+.header__link:active {
+  color: #0C5FBA;
+  fill: #0C5FBA;
+  stroke: #0C5FBA;
+}

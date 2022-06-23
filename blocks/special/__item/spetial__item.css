@@ -1,0 +1,29 @@
+.speсial__item {
+  margin-right: 40px;
+  flex-shrink: 0;
+  width: max-content;
+}
+
+.speсial__item:nth-of-type(2n){
+  margin-bottom: 16px;
+}
+
+.speсial__item:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1312px) {
+  .speсial__item {
+    margin-right: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .speсial__item {
+    margin-right: 24px;
+  }
+
+  .speсial__item:first-of-type{
+    margin-bottom: 16px;
+  }
+}

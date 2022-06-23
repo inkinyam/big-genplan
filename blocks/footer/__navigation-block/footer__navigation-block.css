@@ -1,0 +1,51 @@
+.footer__navigation-block {
+  width: max-content;
+}
+
+.footer__navigation-block_place_university {
+  grid-area: univercity;
+}
+
+.footer__navigation-block_place_urist {
+  grid-area: urist;
+}
+
+.footer__navigation-block_place_project {
+  grid-area: project;
+}
+
+.footer__navigation-block_place_contact {
+  grid-area: contact;
+}
+
+.footer__navigation-block_place_social {
+  grid-area: social;
+}
+
+.footer__navigation-block_place_press {
+  grid-area: press;
+}
+
+.footer__navigation-block_place_services {
+  grid-area: services;
+}
+
+.footer__navigation-block_place_special {
+  grid-area: special;
+}
+
+@media screen and (max-width: 960px) {
+  .footer__navigation-block {
+    margin-bottom: 20px;
+  }
+
+  .footer__navigation-block:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .footer__navigation-block {
+    margin-bottom: 25px;
+  }
+}

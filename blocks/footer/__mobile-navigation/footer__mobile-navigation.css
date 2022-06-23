@@ -1,0 +1,10 @@
+.footer__mobile-navigation {
+  box-sizing: border-box;
+  padding: 68px 24px 64px;
+}
+
+@media screen and (min-width: 960px) {
+  .footer__mobile-navigation  {
+    display: none;
+  }
+}

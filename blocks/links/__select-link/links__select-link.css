@@ -1,0 +1,39 @@
+.links__select-link {
+  text-decoration: none;
+  color: #201E33;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-right: 32px; 
+  align-self: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.links__select-link:last-of-type {
+  margin: 0;
+}
+
+
+.links__link_v_active {
+  color: #2D8BF1;
+}
+
+.links__select-link:hover {
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+  color: #106CD1;
+}
+
+.links__select-link:active{
+  fill: #0C5FBA;
+}
+
+@media screen and (max-width: 1080px) {
+  .links__select-link {
+    margin: 0 0 24px 0;
+  }
+
+  .links__select-link:last-of-type {
+    margin: 0;
+  }
+}

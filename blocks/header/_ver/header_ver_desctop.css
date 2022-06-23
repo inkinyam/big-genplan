@@ -1,0 +1,16 @@
+.header_ver_desctop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .header_ver_desctop {
+      display: none;
+    }
+  }
+

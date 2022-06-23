@@ -1,0 +1,10 @@
+.lead__control-buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__control-buttons{
+    margin: 81px auto 0;
+  }
+}

@@ -1,0 +1,7 @@
+.header__mobile-social-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 104px;
+  border-top: 1px solid #5265CB;
+}

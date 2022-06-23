@@ -1,0 +1,9 @@
+.card_v_project-cards {
+  background-color: #F0F0F4;
+  height: 334px;
+}
+
+.card_v_project-cards:hover img{
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+  transform: scale(1.02);
+}

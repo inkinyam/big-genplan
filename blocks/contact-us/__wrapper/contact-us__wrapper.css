@@ -1,0 +1,17 @@
+.contact-us__wrapper {
+  margin: auto;
+  max-width: 1312px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+@media screen and (max-width: 960px) {
+  .contact-us__wrapper {
+    flex-direction: column;
+    justify-content: center;
+ 
+  }
+}

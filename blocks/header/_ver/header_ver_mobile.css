@@ -1,0 +1,14 @@
+.header_ver_mobile {
+  flex-direction: column;
+  display: none;
+  justify-content: space-between;
+   width: 100%;
+}
+
+
+@media screen and (max-width: 900px) {
+  .header_ver_mobile {
+    display: flex;
+  }
+}
+

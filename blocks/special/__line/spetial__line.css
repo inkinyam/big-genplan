@@ -1,0 +1,28 @@
+.speсial__line {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  max-width: 1170px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1312px) {
+  .speсial__line {
+    box-sizing: border-box;
+    max-width: 65%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .speсial__line {
+    justify-content: start;
+    max-width: 90%;
+  }
+}
+
+

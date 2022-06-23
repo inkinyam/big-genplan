@@ -1,0 +1,10 @@
+.card_v_interview-cards {
+  flex-direction: row;
+  margin: 0 5%;
+  background-color: #F0F0F4;
+}
+
+.card_v_interview-cards:hover img {
+  opacity: 0.9;
+}
+

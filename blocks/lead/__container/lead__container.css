@@ -1,0 +1,14 @@
+.lead__container{
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-row: 1;
+  grid-column: 1;
+
+  text-decoration: none;
+  color: white;
+  position: relative;
+  width: 100%;
+}

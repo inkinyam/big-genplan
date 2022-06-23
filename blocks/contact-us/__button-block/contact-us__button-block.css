@@ -1,0 +1,5 @@
+.contact-us__button-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

@@ -1,0 +1,14 @@
+.footer__navigation-item {
+  padding-bottom: 4px;
+}
+
+.footer__navigation-item:last-of-type {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .footer__navigation-item {
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+}

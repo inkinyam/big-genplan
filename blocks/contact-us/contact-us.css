@@ -1,0 +1,19 @@
+.contact-us {
+  background-color: #201E33;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 80px 5%;
+
+  margin: 0;
+  border-bottom: 1px solid #0C5FBA;
+}
+
+
+@media screen and (max-width: 960px) {
+  .contact-us {
+    padding: 45px 32px 48px 24px;
+  
+  }
+}
+
+

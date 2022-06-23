@@ -1,0 +1,16 @@
+.lead__figure {
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 1;
+  width: 90%;
+  max-width: 1312px;
+  min-width: 327px;
+  object-position: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 1240px) {
+  .lead__figure{
+    height: 95%;
+  }
+}

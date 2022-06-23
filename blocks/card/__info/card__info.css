@@ -1,0 +1,17 @@
+.card__info {
+  grid-area: info;
+  display: flex;
+  flex-direction: row;
+  color: #2D8BF1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 0 8px 0;
+
+}
+
+.card__info  * {
+  flex-shrink: 0;
+}

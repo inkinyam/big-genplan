@@ -1,0 +1,17 @@
+.footer__links-logo {
+  height: 66px;
+  width: 66px;
+  margin-right: 18px;
+}
+
+.footer__links-logo:first {
+  width: 53px;
+}
+
+@media screen and (max-width: 960px) {
+  .footer__links-logo  {
+    width: 47px;
+    height: 47px;
+    margin-right: 16px;
+  }
+}

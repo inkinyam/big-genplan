@@ -1,0 +1,26 @@
+.section__title {
+  font-size: 52px;
+  line-height: 68px;
+  font-weight: 700;
+  color: #201E33;
+  text-transform: uppercase;
+  margin: 0 0 40px 0;
+  padding-left: 5%;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media screen and (max-width: 1312px) {
+  .section__title{
+    font-size: 56px;
+    line-height: 56px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .section__title{
+    font-size: 34px;
+    line-height: 48px;
+    margin: 0 0 24px 0;
+  }
+}

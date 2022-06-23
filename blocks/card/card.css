@@ -1,0 +1,8 @@
+.card {
+  display: grid;
+  grid-template-areas: 
+                      'info'
+                      'photo'
+                      'title'
+                      'text';
+}

@@ -1,0 +1,30 @@
+.form__submit{
+  border: none;
+  background-color: transparent;
+  width: 66px;
+  height: 66px;
+  padding: 0;
+  margin: 0;
+  fill: #F6F6F7; 
+  stroke: #A7A6B5;
+  transition: all 0.2s ease-in-out;
+}
+
+.form__submit:hover{
+  fill: #7E7D90; 
+  stroke: #F0F0F4;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+}
+
+.form__submit:hover circle{
+  stroke: #7E7D90;
+}
+
+.form__submit:active {
+  fill: #5A596E; 
+  stroke: #fff;
+}
+
+.form__submit:active circle{
+  stroke: #5A596E;
+}

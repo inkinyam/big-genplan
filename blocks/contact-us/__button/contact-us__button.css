@@ -1,0 +1,32 @@
+.contact-us__button {
+  padding: 0;
+  background-color: transparent;
+  width: 66px;
+  height: 66px;
+  border: none;
+  fill: none;
+  stroke: #ffffff;
+  fill: #2D8BF1;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-us__button:hover{
+  stroke: #ffffff;
+  fill: #106CD1;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+}
+
+.contact-us__button:hover circle{
+  stroke: #0C5FBA;
+}
+
+.contact-us__button:active {
+  stroke: #ffffff;
+  fill: #0C5FBA;
+}
+
+@media screen and (max-width: 960px) {
+  .contact-us__button {
+    margin: 18px 5px 0 0;
+  }
+}
