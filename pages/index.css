@@ -77,21 +77,21 @@
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__img/card__img.css);
 @import url(../blocks/card/__img-wrapper/card__img-wrapper.css);
-
+@import url(../blocks/card/__pagination/card__pagination.css);
+@import url(../blocks/card/__button/card__button.css);
 
 @import url(../blocks/card/_v/card_v_journal-cards.css);
-/*
-
-@import url(../blocks/card/__text-block/card__text-block.css);
-
 @import url(../blocks/card/_v/card_v_interview-cards.css);
+
+/*
+@import url(../blocks/card/__text-block/card__text-block.css);
 @import url(../blocks/card/_v/card_v_project-cards.css);
 @import url(../blocks/card/_v/card_v_services-cards.css);
 @import url(../blocks/card/__description/card__description.css);
-@import url(../blocks/card/__pagination/card__pagination.css);
+ */
 
-@import url(../blocks/card/__button/card__button.css); */
-
+/*INTERVIEWS*/
+@import url(../blocks/interviews/interviews.css);
 
 /*JOURNAl*/
 @import url(../blocks/journal/journal.css);

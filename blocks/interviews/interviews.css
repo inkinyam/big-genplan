@@ -1,0 +1,11 @@
+.interviews {
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1240px) {
+  .interviews {
+    background-color: #201E33;
+}
+
+}

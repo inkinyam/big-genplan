@@ -1,6 +1,12 @@
 .card_v_interview-cards {
-  flex-direction: row;
-  margin: 0 5%;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 112px min-content 1fr 52px;
+  justify-items: center;
+  grid-template-areas: 
+                      'info  info      photo'
+                      'title title     photo'
+                      'text  text      photo'
+                      '.     buttonbox photo';
   background-color: #F0F0F4;
 }
 
@@ -8,3 +14,42 @@
   opacity: 0.9;
 }
 
+.card_v_interview-cards .card__info {
+  width: 80%;
+}
+
+.card_v_interview-cards .card__text {
+  width: 80%;
+}
+
+.card_v_interview-cards .card__title {
+  width: 80%;
+}
+
+@media screen and (max-width: 1240px) {
+  .card_v_interview-cards {
+    grid-template-areas: 
+                        'info  info'
+                        'photo photo'
+                        'title title'
+                        'text  text'
+                        'buttonbox pagination';
+    grid-template-columns: 1fr ;
+    grid-template-rows: 96px min-content min-content min-content 52px;
+    background-color: #201E33;
+  }
+  .card_v_interview-cards .card__info {
+    width: 100%;
+  }
+  
+  .card_v_interview-cards .card__text {
+    width: 100%;
+    color: #F6F6F7
+  }
+  
+  .card_v_interview-cards .card__title {
+    width: 100%;
+    color: #F6F6F7
+  }
+
+}

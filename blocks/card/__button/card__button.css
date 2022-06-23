@@ -1,0 +1,28 @@
+.card__button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  stroke: #201E33;
+  fill: #F0F0F4;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.card__button circle {
+  stroke: #F0F0F4;
+}
+
+.card__button:hover {
+  fill: #106CD1;
+  stroke: #fff;
+}
+
+.card__button:active {
+  fill: #0C5FBA;
+  stroke: #fff;
+}
