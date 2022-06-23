@@ -16,7 +16,7 @@
 
 .header__mobile-menu-item:hover {
   color: #5A6FDD;
-  cursor: url(../../../image/Cursor\ –\ Hand.svg), pointer;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
 }
 
 .header__mobile-menu-item:active {

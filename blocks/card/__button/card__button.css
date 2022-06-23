@@ -25,3 +25,9 @@
   fill: #0C5FBA;
   stroke: #fff;
 }
+
+@media screen and (max-width: 1240px) {
+  .card__button {
+    display: none;
+  }
+}

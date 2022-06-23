@@ -33,3 +33,7 @@
     row-gap: 40px;
   }
 }
+
+.journal__card {
+  height: auto;
+}

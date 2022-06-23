@@ -4,3 +4,9 @@
   font-weight: 400;
   margin: 0;
 }
+
+@media screen and (max-width: 900px) {
+  .card__date {
+    font-size: 18px;
+   }
+}

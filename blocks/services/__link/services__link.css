@@ -11,4 +11,14 @@
   line-height: 26px;
   text-transform: uppercase;
   max-width: 90%;
+  transition: all 0.2s ease-in;
 }
+
+.services_v_mobile .services__link:hover {
+  color: #106CD1;
+}
+
+.services_v_mobile .services__link:active {
+  color: #0C5FBA;
+}
+

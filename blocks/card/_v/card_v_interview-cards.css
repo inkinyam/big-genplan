@@ -35,7 +35,7 @@
                         'text  text'
                         'buttonbox pagination';
     grid-template-columns: 1fr ;
-    grid-template-rows: 96px min-content min-content min-content 52px;
+    grid-template-rows: 96px min-content min-content min-content;
     background-color: #201E33;
   }
   .card_v_interview-cards .card__info {

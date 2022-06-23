@@ -9,11 +9,10 @@
 }
 
 .header__mobile-social-item:hover {
-  cursor: url(../../../image/Cursor\ –\ Hand.svg), pointer;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
   fill: #5A6FDD;
 }
 
 .header__mobile-social-item:active {
-  cursor: url(../../../image/Cursor\ –\ Hand.svg), pointer;
   fill: #5265CB;
 }

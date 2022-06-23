@@ -4,6 +4,8 @@
                       'photo'
                       'title'
                       'text';
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content min-content min-content 1fr ;
 }
 
 .card_v_journal-cards:hover img{

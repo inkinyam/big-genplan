@@ -3,8 +3,6 @@
   justify-items: center;
   grid-template-columns: 1fr 1fr ;
   grid-template-rows: 84px min-content 1fr ;
-  box-sizing: border-box;
-  padding: 40px 42px 32px 40px ;
 }
 
 .card_v_project-cards-right {
