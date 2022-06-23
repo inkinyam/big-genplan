@@ -1,9 +1,72 @@
 .card_v_project-cards {
   background-color: #F0F0F4;
-  height: 334px;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 84px min-content 1fr ;
+  box-sizing: border-box;
+  padding: 40px 42px 32px 40px ;
+}
+
+.card_v_project-cards-right {
+   grid-template-areas: 
+                      'info photo'
+                      'title photo'
+                      'text photo';
+}
+
+.card_v_project-cards-left {
+  grid-template-areas: 
+                      'photo info'
+                      'photo title'
+                      'photo text';
 }
 
 .card_v_project-cards:hover img{
   cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
   transform: scale(1.02);
+}
+
+.card_v_project-cards .card__info {
+  width: 80%;
+}
+
+.card_v_project-cards .card__text {
+  width: 80%;
+}
+
+.card_v_project-cards .card__title {
+  width: 80%;
+}
+
+@media screen and (max-width: 1023px) {
+  .card_v_project-cards {
+    grid-template-columns: 1fr ;
+    grid-template-rows: min-content min-content 1fr ;
+  }
+
+  .card_v_project-cards-right, .card_v_project-cards-left {
+    grid-template-areas: 
+    'photo'
+    'info'
+    'title';
+  }
+
+  .card_v_project-cards .card__text{
+    display: none;
+  }
+
+  .card_v_project-cards .card__info {
+    width: 100%;
+    margin: 8px 0;
+  }
+  
+  .card_v_project-cards .card__text {
+    width: 100%;
+  }
+  
+  .card_v_project-cards .card__title {
+    width: 100%;
+    margin: 0;
+  }
+ 
 }

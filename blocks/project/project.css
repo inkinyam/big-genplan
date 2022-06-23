@@ -1,20 +1,15 @@
 .project {
   position: relative;
+  background-color: #fff;
 }
 
-.project .card__img-wrapper {
- width: 50%;
-}
-
-.project .card__description {
-  width: 50%;
-  box-sizing: border-box;
-  padding: 45px 87px 0;
-  max-height: 334px;
-}
 
 
 @media screen and (max-width: 1023px) {
+  .project {
+    background-color: #F0F0F4;
+  }
+  
   .project .links {
     margin: 0;
   }

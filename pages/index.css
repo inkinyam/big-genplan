@@ -79,16 +79,13 @@
 @import url(../blocks/card/__img-wrapper/card__img-wrapper.css);
 @import url(../blocks/card/__pagination/card__pagination.css);
 @import url(../blocks/card/__button/card__button.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__icon/card__icon.css);
 
 @import url(../blocks/card/_v/card_v_journal-cards.css);
 @import url(../blocks/card/_v/card_v_interview-cards.css);
-
-/*
-@import url(../blocks/card/__text-block/card__text-block.css);
 @import url(../blocks/card/_v/card_v_project-cards.css);
 @import url(../blocks/card/_v/card_v_services-cards.css);
-@import url(../blocks/card/__description/card__description.css);
- */
 
 /*INTERVIEWS*/
 @import url(../blocks/interviews/interviews.css);
@@ -103,8 +100,7 @@
 /*PROJECT*/
 @import url(../blocks/project/project.css);
 @import url(../blocks/project/__cards/project__cards.css);
-@import url(../blocks/project/__cards/_v/project__cards_v_left.css);
-@import url(../blocks/project/__cards/_v/project__cards_v_right.css);
+
 
 /*CONTACT-US*/
 @import url(../blocks/contact-us/contact-us.css);

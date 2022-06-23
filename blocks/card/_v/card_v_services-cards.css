@@ -1,11 +1,22 @@
 .card_v_services-cards {
-  flex-direction: column;
   box-sizing: border-box;
   padding: 40px 42px 32px 40px ;
   border: 0.3px solid rgba(167, 166, 181, 0.30);
   height: 100%;
   border-collapse: collapse;
+
+  grid-template-columns: 1fr ;
+  grid-template-rows: min-content min-content 1fr ;
+  grid-template-areas: 
+                'icon'
+                'title'
+                'text';
 }
 
+
+.services__card:nth-of-type(6) .card_v_services-cards {
+  grid-template-areas:  'title';
+  grid-template-rows: 1fr ;
+}
 
 
