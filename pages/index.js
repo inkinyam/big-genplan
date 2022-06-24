@@ -141,12 +141,12 @@ forEach($mapPins, function(index, value) {
   // Pulse animation
   var pinTimeline = new TimelineMax({
     repeat: -1,
-    delay: randomIntFromInterval(1,30),
+    delay: randomIntFromInterval(1,60),
     repeatDelay: randomIntFromInterval(0, 1)
   });
     
   pinTimeline.
-    to(value.querySelector('.Pin-back'), 4, {
+    to(value.querySelector('.Pin-back'), 2, {
       scale: 30,
       transformOrigin: 'center center',
       opacity: 0
