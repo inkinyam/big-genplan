@@ -144,6 +144,8 @@
 @import url(../blocks/form/__button-box/form__button-box.css);
 @import url(../blocks/form/__input-value/form__input-value.css);
 @import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__input-group/form__input-group.css);
+
 
 
 /*блок FOOTER*/

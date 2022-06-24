@@ -5,19 +5,18 @@
   border-bottom: 1px solid #6990BA;
   font-size: 20px;
   font-weight: normal;
-  line-height: 24px;
+  line-height: 22px;
   color: #ffffff;
   background-color: #201E33;
   min-height: 56px;
   box-sizing: border-box;
   padding-left: 8px;
+  background: transparent;
 }
 
-
-.form__input::placeholder{
-  color: #6990BA;
+.form__input:last-of-type {
+  max-height: 100px;
 }
-
 
 .form__input:focus{
   outline: none;

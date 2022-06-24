@@ -1,6 +1,6 @@
-/*import Form from "./form.js";
+import Form from "./form.js";
 
-
+/*
   //подключаем swiper для отображения картинок в слайдере
 const swiper = new Swiper('.mySwiper', {
   loop: true,
@@ -71,11 +71,107 @@ const openContactUsForm = () => {
 }
 
 contactUsButton.addEventListener('click', openContactUsForm);
-/* 
+
 // создаем форму 
 const initForm = (formId) => {
   return new Form (formId);
 }
 
 initForm('contactForm');
- */
+
+
+
+/*работа инпутов в форме*/
+const addClassForInput = (item) => {
+  let label = document.querySelector(`[for="${item.id}"]`);
+  label.classList.add('form__label_active');
+}
+
+const removeClassForInput = (item) => {
+  if (!item.value) {
+    let label = document.querySelector(`[for="${item.id}"]`);
+    label.classList.remove('form__label_active');
+  }
+}
+
+const formInputs = Array.from(document.querySelectorAll('.form__input'));
+
+formInputs.forEach(item => {
+  item.addEventListener('click', ()=> {
+    addClassForInput(item);
+  });
+
+  item.addEventListener('blur', ()=> {
+       removeClassForInput(item);
+  }); 
+
+})
+
+
+
+
+
+
+/*************************************************************************** */
+
+var forEach = function(array, callback, scope) {
+  for (var i = 0; i < array.length; i++) {
+    callback.call(scope, i, array[i]); // passes back stuff we need
+  }
+};
+
+var randomIntFromInterval = function(min,max) {
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+var $mapPins = document.querySelectorAll('#Map-shape g');
+
+// Setup timelines attached to each map pin
+forEach($mapPins, function(index, value) {
+  // Group opacity timeline
+  value.groupTimeline = new TimelineMax({
+    paused: true
+  });
+  
+  value.groupTimeline
+  .to(value, 0.4, {
+    opacity: 0
+  });
+  
+  // Pulse animation
+  var pinTimeline = new TimelineMax({
+    repeat: -1,
+    delay: randomIntFromInterval(1,30),
+    repeatDelay: randomIntFromInterval(0, 1)
+  });
+    
+  pinTimeline.
+    to(value.querySelector('.Pin-back'), 4, {
+      scale: 30,
+      transformOrigin: 'center center',
+      opacity: 0
+    });
+});
+
+forEach(document.querySelectorAll('.js-Location-nav [data-location]'), function(index, value) {
+ 
+   value.addEventListener('mouseenter', function(e) {   
+     var location = e.target.getAttribute('data-location');
+     
+     // Hide other map pins
+     forEach($mapPins, function(index, value) {
+       if (value.getAttribute('data-location') !== location) {
+         value.groupTimeline.play();
+       }
+     });
+   }, false);
+  
+  value.addEventListener('mouseleave', function(e) {
+    // Reverse all hidden map pins
+    forEach($mapPins, function(index, value) {
+       value.groupTimeline.reverse();
+    });
+    
+  }, false);
+});
+  

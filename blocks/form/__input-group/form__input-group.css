@@ -1,0 +1,10 @@
+.form__input-group {
+  position: relative; 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input-group:nth-of-type(6) .form__label_active {
+  top: -28px;
+}

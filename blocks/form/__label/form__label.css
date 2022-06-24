@@ -9,19 +9,15 @@
 	left: 5px;
 	top: 10px;
   transition: all 0.2s ease;
+  width: 226px;
 }
 
-.form__input-group {
-  position: relative; 
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
 
-.form input:focus ~ .form__label,
-.form input.used ~ .form__label {
-	top: -20px;
+.form__label_active {
+	top: -10px;
+  left: -24px;
   transform: scale(.75);
-  left: -4px;
-	color: #e300c5;
+  
+	color: #6990BA;
 }
+

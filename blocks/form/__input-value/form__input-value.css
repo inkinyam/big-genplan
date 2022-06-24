@@ -3,3 +3,9 @@
   background-color: #fff;
   color: #000;
 }
+
+
+.form__input-value:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 38, 255);
+}
