@@ -11,6 +11,12 @@
 
 @media screen and (max-width: 1240px) {
   .lead__figure{
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .lead__figure{
     height: 95%;
   }
 }
