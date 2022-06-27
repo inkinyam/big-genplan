@@ -1,0 +1,7 @@
+@import url(../../blocks/cities/cities.css);
+
+/*DESCRIPTION*/
+
+@import url(../../blocks/description/description.css);
+@import url(../../blocks/description/__text/description__text.css);
+@import url(../../blocks/description/__title/description__title.css);

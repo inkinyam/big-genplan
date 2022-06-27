@@ -10,6 +10,10 @@
 /*SECTION*/
 @import url(../blocks/section/section.css); /*вспомогательная хрень для определения границ секции*/
 @import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__navigation/section__navigation.css);
+@import url(../blocks/section/__nav-link/section__nav-link.css);
+@import url(../blocks/section/__nav-link/_active/section__nav-link_active.css);
+@import url(../blocks/section/__nav-accent/section__nav-accent.css);
 
 /*HEADER*/
 @import url(../blocks/header/header.css);
@@ -86,6 +90,7 @@
 @import url(../blocks/card/_v/card_v_interview-cards.css);
 @import url(../blocks/card/_v/card_v_project-cards.css);
 @import url(../blocks/card/_v/card_v_services-cards.css);
+@import url(../blocks/card/_v/card_v_interactive-map-cards.css);
 
 /*INTERVIEWS*/
 @import url(../blocks/interviews/interviews.css);
@@ -170,3 +175,7 @@
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 
 @import url(../blocks/footer/__mobile-navigation/footer__mobile-navigation.css);
+
+/*ПОДКЛЮЧАЕМ СТИЛИ СТРАНИЦ*/
+
+@import url(../pages/cities/cities.css);

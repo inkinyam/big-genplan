@@ -1,0 +1,5 @@
+.card_v_interactive-map-cards {
+  grid-template-areas: 'title' 
+                       'text';
+ 
+}

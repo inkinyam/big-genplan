@@ -1,0 +1,9 @@
+.description__title {
+  margin: 0 auto 16px ;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 34px;
+  max-width: 644px;
+}
