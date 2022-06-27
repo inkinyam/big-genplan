@@ -1,0 +1,21 @@
+.project__category {
+  margin-bottom: 12px;
+  width: 400px;
+}
+
+@media screen and (max-width: 1023px) {
+  .project__category  {
+    max-width: 290px;
+    margin-bottom:  16px;
+  }
+
+  .project__category:last-of-type  {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .project__category  {
+    margin: 0 auto 16px;
+  }
+}

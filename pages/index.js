@@ -18,10 +18,10 @@ const swiper = new Swiper('.mySwiper', {
 
 //переменные для открытия мобильного меню
 const openMobilMenuButton   = document.querySelector('.header__mobile-button');
-const mobilHeaderMenu  = document.querySelector('.header__mobile-menu');
-const mobilHeaderLogo  = document.querySelector('.header__mobile-logo'); 
-const mobilHeader       = document.querySelector('.header_ver_mobile');
-const showMoreButton   = document.querySelector('.header__mobile-menu-next');
+const mobilHeaderMenu       = document.querySelector('.header__mobile-menu');
+const mobilHeaderLogo       = document.querySelector('.header__mobile-logo'); 
+const mobilHeader           = document.querySelector('.header_ver_mobile');
+const showMoreButton        = document.querySelector('.header__mobile-menu-next');
 
 
 // функция открывающая/закрывающая меню в мобильной версии
@@ -60,7 +60,6 @@ const hideMoreMobileSection = () => {
 const contactUsButton   = document.querySelector('.contact-us__button');
 const contactUsButtonOpen  = document.querySelector('.contact-us__button_ver_open');
 const contactUsButtonClose  = document.querySelector('.contact-us__button_ver_close');
-
 const contactUsForm    = document.querySelector('.form-section');
 
 //функция, открывающая форму обратной связи
@@ -72,13 +71,13 @@ const openContactUsForm = () => {
 
 contactUsButton.addEventListener('click', openContactUsForm);
 
+
 // создаем форму 
 const initForm = (formId) => {
   return new Form (formId);
 }
 
 initForm('contactForm');
-
 
 
 /*работа инпутов в форме*/
@@ -104,74 +103,26 @@ formInputs.forEach(item => {
   item.addEventListener('blur', ()=> {
        removeClassForInput(item);
   }); 
-
 })
 
 
+/*открытие блоков в PROJECT*/
+const favoriteProjectButton = document.querySelector('.links__favorites');
+const allProjectButton     = document.querySelector('.links__all');
+const favoriteProject = document.querySelector('.project__favorites');
+const allProject = document.querySelector('.project__all');
 
 
+favoriteProjectButton.addEventListener('click', ()=> {
+  favoriteProject.classList.add('project_open');
+  allProject.classList.remove('project_open');
+  favoriteProjectButton.classList.add('links__link_v_active');
+  allProjectButton.classList.remove('links__link_v_active');
+})
 
-
-/*************************************************************************** */
-
-var forEach = function(array, callback, scope) {
-  for (var i = 0; i < array.length; i++) {
-    callback.call(scope, i, array[i]); // passes back stuff we need
-  }
-};
-
-var randomIntFromInterval = function(min,max) {
-  return Math.floor(Math.random()*(max-min+1)+min);
-}
-
-var $mapPins = document.querySelectorAll('#Map-shape g');
-
-// Setup timelines attached to each map pin
-forEach($mapPins, function(index, value) {
-  // Group opacity timeline
-  value.groupTimeline = new TimelineMax({
-    paused: true
-  });
-  
-  value.groupTimeline
-  .to(value, 0.4, {
-    opacity: 0
-  });
-  
-  // Pulse animation
-  var pinTimeline = new TimelineMax({
-    repeat: -1,
-    delay: randomIntFromInterval(1,60),
-    repeatDelay: randomIntFromInterval(0, 1)
-  });
-    
-  pinTimeline.
-    to(value.querySelector('.Pin-back'), 2, {
-      scale: 30,
-      transformOrigin: 'center center',
-      opacity: 0
-    });
-});
-
-forEach(document.querySelectorAll('.js-Location-nav [data-location]'), function(index, value) {
- 
-   value.addEventListener('mouseenter', function(e) {   
-     var location = e.target.getAttribute('data-location');
-     
-     // Hide other map pins
-     forEach($mapPins, function(index, value) {
-       if (value.getAttribute('data-location') !== location) {
-         value.groupTimeline.play();
-       }
-     });
-   }, false);
-  
-  value.addEventListener('mouseleave', function(e) {
-    // Reverse all hidden map pins
-    forEach($mapPins, function(index, value) {
-       value.groupTimeline.reverse();
-    });
-    
-  }, false);
-});
-  
+allProjectButton.addEventListener('click', ()=> {
+  favoriteProject.classList.remove('project_open');
+  allProject.classList.add('project_open');
+  favoriteProjectButton.classList.remove('links__link_v_active');
+  allProjectButton.classList.add('links__link_v_active');
+})

@@ -8,6 +8,9 @@
   align-self: center;
   justify-content: center;
   transition: all 0.2s ease-in-out;
+  background-color: transparent;
+  border: none;
+  padding: 0;
 }
 
 .links__select-link:last-of-type {

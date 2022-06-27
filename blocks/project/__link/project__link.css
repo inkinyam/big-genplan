@@ -1,0 +1,23 @@
+.project__link {
+  text-decoration: none;
+  color: #201E33;
+  font-weight: 360;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.project__link:hover {
+  color: #2D8BF1;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+}
+
+.project__link:active {
+  color: #106CD1;
+}
+
+@media screen and (max-width: 900px) {
+  .project__link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

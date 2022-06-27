@@ -3,6 +3,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .map__container {
@@ -12,10 +13,26 @@
 }
 
 
-.map__container svg {
-width: 100%;
-height: 100%;
-
+.map__description {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  color: #C3D800;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 55px;
+   position: absolute;
+  top: 110px;
+  right: 5%;
+  text-transform: uppercase;
+  text-align: right;
+  max-width: 1300px;
 }
 
+.map__container .Pin-back {
+  z-index: -2;
+}
 
+.map__container .Pin-front:hover {
+  fill: #C3D800;
+}

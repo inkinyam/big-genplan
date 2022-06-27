@@ -1,0 +1,26 @@
+.project__categories{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 380px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px 5% 68px;
+  background-color: #F0F0F4;
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 1250px) {
+  .project__categories {
+    height: 565px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .project__categories {
+    height: fit-content;
+  }
+}
+

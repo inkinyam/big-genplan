@@ -101,6 +101,14 @@
 @import url(../blocks/project/project.css);
 @import url(../blocks/project/__cards/project__cards.css);
 
+@import url(../blocks/project/__categories/project__categories.css);
+@import url(../blocks/project/__category/project__category.css);
+@import url(../blocks/project/__link/project__link.css);
+@import url(../blocks/project/__link-accent/project__link-accent.css);
+
+@import url(../blocks/project/__favorites/project__favorites.css);
+@import url(../blocks/project/__all/project__all.css);
+@import url(../blocks/project/_open/project_open.css);
 
 /*CONTACT-US*/
 @import url(../blocks/contact-us/contact-us.css);
