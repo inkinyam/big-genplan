@@ -8,5 +8,9 @@
 
 .section__nav-link:hover {
   color: #2D8BF1;
-  cursor: url(../../images/Cursor\ –\ Hand.svg), pointer;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+}
+
+.section__nav-link:active {
+  color: #0C5FBA;
 }

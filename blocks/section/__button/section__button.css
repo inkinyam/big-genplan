@@ -1,0 +1,29 @@
+.section__button {
+  background-color: transparent;
+  border: none;
+  stroke: #2D8BF1;
+  fill: none;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.section__button circle {
+  fill: #F6F6F7
+}
+
+.section__button:hover {
+  stroke: #F0F0F4;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+}
+
+.section__button:hover circle {
+  stroke: #106CD1;
+  fill: #106CD1;
+}
+
+
+.section__button:active circle {
+  stroke: #0C5FBA;
+  fill: #0C5FBA;
+}

@@ -14,3 +14,9 @@
     margin: 48px auto;
   }
 }
+
+.wrapper_v_cities {
+  row-gap: 0;
+  margin: 68px auto 32px;
+
+}
