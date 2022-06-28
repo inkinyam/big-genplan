@@ -19,3 +19,17 @@ allProjectButton.addEventListener('click', ()=> {
   favoriteProjectButton.classList.remove('links__link_v_active');
   allProjectButton.classList.add('links__link_v_active');
 }) 
+
+
+/*инициализация слайдера для блока INTERVIEW*/
+
+new ChiefSlider('.interviews_slider', {
+                                        loop: true,
+                                        autoplay: true,
+                                        interval: 10000,
+                                        swipe: true,
+                                        refresh: false
+                                    }
+);
+
+

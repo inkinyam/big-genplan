@@ -18,21 +18,47 @@
   margin: 0;
   padding: 0;
   color: #C3D800;
-  font-weight: 800;
-  font-size: 70px;
-  line-height: 55px;
-   position: absolute;
+  stroke:#C3D800;
+
+  position: absolute;
   top: 110px;
-  right: 5%;
-  text-transform: uppercase;
+  right: 0;
   text-align: right;
-  max-width: 1300px;
+  width: 1312px;
 }
 
-.map__container .Pin-back {
-  z-index: -2;
+ .map__text {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 55px;
+  fill-opacity: 1;
+  fill:#C3D800;
+  stroke-width: 1;
+  text-transform: uppercase; 
+  font-style: normal;
+
+
 }
 
-.map__container .Pin-front:hover {
-  fill: #C3D800;
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes filling {
+  from{
+    fill: #C3D800;
+    fill-opacity: 0;
+  }
+  to {
+    fill: #C3D800;
+    fill-opacity: 1;
+  }
+}
+
+.animate {
+  animation: dash 1.5s ease-out forwards, filling 2s ease-out forwards;
 }

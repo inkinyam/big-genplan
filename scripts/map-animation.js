@@ -1,7 +1,6 @@
 
 
-/*************************************************************************** */
-let locationDescr = document.querySelector('.map__description');
+let locationDescr = document.querySelector('.map__text');
 
 const forEach = function(array, callback, scope) {
   for (var i = 0; i < array.length; i++) {
@@ -23,19 +22,19 @@ forEach($mapPins, function(index, value) {
   });
   
   value.groupTimeline
-  .to(value, 0.4, {
-    opacity: 0
+  .to(value, 0.3, {
+    opacity: 0.05
   });
   
   // Pulse animation
   var pinTimeline = new TimelineMax({
     repeat: -1,
-    delay: randomIntFromInterval(1,10),
-    repeatDelay: randomIntFromInterval(0, 10)
+    delay: randomIntFromInterval(1,30),
+    repeatDelay: randomIntFromInterval(0, 20)
   });
     
    pinTimeline.
-    to(value.querySelector('.Pin-back'), 2, {
+    to(value.querySelector('.Pin-back'), 0.7, {
       scale: 10,
       transformOrigin: 'center center',
       opacity: 0
@@ -44,11 +43,13 @@ forEach($mapPins, function(index, value) {
 
 forEach(document.querySelectorAll('.Pin-front'), function(index, value) {
  
-   value.addEventListener('mouseenter', function(e) {   
+   value.addEventListener('mouseenter', function(e) {
+    locationDescr.classList.remove('animate');   
     let location = e.target.parentNode.getAttribute('data-location');
     locationDescr.textContent = location;
+    locationDescr.classList.add('animate');
 
-  
+    locationDescr.addEventListener('webkitAnimationEnd', ()=>{locationDescr.classList.remove('animate')})
      
      // Hide other map pins
      forEach($mapPins, function(index, value) {

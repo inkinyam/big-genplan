@@ -8,6 +8,9 @@
                       'text  text      photo'
                       '.     buttonbox photo';
   background-color: #F0F0F4;
+  overflow: hidden;
+
+  box-sizing: border-box;
 }
 
 .card_v_interview-cards:hover img {
@@ -37,6 +40,7 @@
     grid-template-columns: 1fr ;
     grid-template-rows: 96px min-content min-content min-content;
     background-color: #201E33;
+    padding-bottom: 30px;
   }
   .card_v_interview-cards .card__info {
     width: 100%;
@@ -44,12 +48,21 @@
   
   .card_v_interview-cards .card__text {
     width: 100%;
-    color: #F6F6F7
+    color: #F6F6F7;
+    max-height: 490px;
+    overflow: hidden;
   }
   
   .card_v_interview-cards .card__title {
     width: 100%;
     color: #F6F6F7
   }
+
+  .interviews_slider .slider__control {
+    top: 35%;
+    opacity: 0.5;
+  }
+
+
 
 }

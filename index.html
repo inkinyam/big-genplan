@@ -7,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ГАУ "Институт Генплана Москвы"</title>
     <link rel="stylesheet" href="./pages/index.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+
+    <!--TweenMax для карты-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script> 
+    <!-- ChiefSlider слайдеры-->
+    <link rel="stylesheet" href="vendors/chiefSlider/chief-slider.css">
+    <script defer src="vendors/chiefSlider/chief-slider.js"></script>
 
 </head>
 <body class="page">
@@ -246,40 +251,75 @@
 
   <!-- блок INTERVIEWS -->
       <section class="interviews">
-        <div class="card card_v_interview-cards" href="">
-          <div class="card__info">
-            <p class="card__type">Интервью</p>
-            <span class="card__filler"></span>
-            <p class="card__date">12.11.18</p>
+
+        <div class="slider interviews_slider">
+          <div class="slider__container">
+            <div class="slider__wrapper">
+              <div class="slider__items">
+
+                <div class="slider__item">
+                  <div class="card card_v_interview-cards" href="">
+                    <div class="card__info">
+                      <p class="card__type">Интервью</p>
+                      <span class="card__filler"></span>
+                      <p class="card__date">12.11.18</p>
+                    </div>
+                    <h3 class="card__title"><a class="card__link" href="">«Генплан.Диалоги». Архитектор или градостроитель?</a></h3>
+                    <p class="card__text">Выпуски интервью «Генплан.Диалоги» уже стали нашей ежемесячной традицией. <br><br> Участники очередного диалога: Андрей Гнездилов – партнер и один из основателей архитектурного бюро «Остоженка», в прошлом главный архитектор Института Генплана Москвы и руководитель архитектурно-планировочного объединения №2 Института Максим Гурвич.</p>
+                    <div class="card__img-wrapper">
+                      <img src="./images/interviews-1.png" alt="Интервью" class="card__img">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="slider__item">
+                  <div class="card card_v_interview-cards" href="">
+                    <div class="card__info">
+                      <p class="card__type">Новый слайдик</p>
+                      <span class="card__filler"></span>
+                      <p class="card__date">28.06.22</p>
+                    </div>
+                    <h3 class="card__title"><a class="card__link" href="">Диалоги. Куда деваются слайды</a></h3>
+                    <p class="card__text"> Новый слайд новый текст  Новый слайд новый текст  Новый слайд новый текст  Новый слайд новый текст  Новый слайд новый текст  Новый слайд новый текст  Новый слайд новый текст  Новый слайд новый текст  Новый слайд новый текст   </p>
+                    <div class="card__img-wrapper">
+                      <img src="./images/interviews-1.png" alt="Интервью" class="card__img">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </div>
-          <h3 class="card__title"><a class="card__link" href="">«Генплан.Диалоги». Архитектор или градостроитель?</a></h3>
-
-          <p class="card__text">Выпуски интервью «Генплан.Диалоги» уже стали нашей ежемесячной традицией. <br><br> Участники очередного диалога: Андрей Гнездилов – партнер и один из основателей архитектурного бюро «Остоженка», в прошлом главный архитектор Института Генплана Москвы и руководитель архитектурно-планировочного объединения №2 Института Максим Гурвич.</p>
-
-          <div class="card__pagination">
-            <button class="card__button card__button_v_left">
+          
+          <!-- <div class="card__pagination">
+            <button class="card__button card__button_v_left slider__control"  data-slide="prev">
               <svg width="28" height="28" viewBox="0 0 28 28"  xmlns="http://www.w3.org/2000/svg">
                 <circle cx="14" cy="14" r="13.5" stroke="inherit"/>
                 <path d="M12.9497 9.10055L7.99992 14.0503L12.9497 19" stroke="inherit"/>
                 <path d="M8.74807 14.0503L19.7471 14.0503" stroke="#inherit"/>
-              </svg>
+              </svg> 
             </button>
             <span class="card__page card__page_v_current">1</span>
             <span class="card__page">/</span>
-            <span class="card__page card__page_v_all">4</span>
-            <button class="card__button card__button_v_right">
+            <span class="card__page card__page_v_all">2</span>
+            <button class="card__button card__button_v_right slider__control" data-slide="next">
               <svg width="28" height="28" viewBox="0 0 28 28"  xmlns="http://www.w3.org/2000/svg">
                 <circle cx="14" cy="14" r="13.5" stroke="inherit"/>
                 <path d="M14.7974 9.10055L19.7472 14.0503L14.7974 19" stroke="inherit"/>
                 <path d="M18.999 14.0503L8 14.0503" stroke="inherit"/>
               </svg>
             </button>
-          </div>
-          <div class="card__img-wrapper">
-            <img src="./images/interviews-1.png" alt="Интервью" class="card__img">
-          </div>
+          </div> -->
 
-        </div>
+          <a href="#" class="slider__control" data-slide="prev"></a>
+          <a href="#" class="slider__control" data-slide="next"></a>
+          <ol class="slider__indicators">
+            <li data-slide-to="0"></li>
+            <li data-slide-to="1"></li>
+
+          </ol>
+        </div>  
+
     </section>
 
   <!-- блок MAP -->
@@ -314,6 +354,7 @@
               <a target="_blank" href="#" class="map-pins" data-location="Тула" >
                 <circle class="Pin-back" cx="209" cy="280" r="5" fill="#fff" fill-opacity="0.5"  />
                 <circle class="Pin-front" cx="209" cy="280" r="5" fill="#9CCBFF"  >
+
                   <animate fill="freeze" dur="0.5s" to="10" from="5" attributeName="r" begin="mouseover" />
                   <animate fill="freeze" dur="0.5s" to="5" from="10" attributeName="r" begin="mouseout"/>
                 </circle>
@@ -455,7 +496,7 @@
                 </circle>>
               </a>
 
-              <a target="_blank" href="#" class="map-pins" data-location="Петропавловск-Камчатский">
+              <a target="_blank" href="#" class="map-pins" data-location="Петропавловск">
                 <circle class="Pin-back" cx="1051"cy="472" r="5" fill="#fff" fill-opacity="0.5" />
                 <circle class="Pin-front" cx="1051"cy="472" r="5" fill="#9CCBFF"  >
                   <animate fill="freeze" dur="0.5s" to="10" from="5" attributeName="r" begin="mouseover" />
@@ -491,8 +532,10 @@
               </a>
 
             </svg>
-          </div>  
-          <p class="map__description">Москва</p>
+          </div> 
+            <svg class="map__description">
+              <text class="map__text"  x="50" y="90" font-size = "100">Санкт-Петербург </text>
+            </svg> 
         </div>
  
         <div class="links">
@@ -1196,5 +1239,6 @@
   
   <script type="module" src="index.js"></script>
   <script type="module" src="./scripts/mainPage.js"></script>
+  <script type="module" src="./scripts/map-animation.js"></script>
 </body>
 </html>
