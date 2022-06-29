@@ -3,3 +3,10 @@
                        'text';
  
 }
+
+@media screen and (max-width: 900px) {
+  .card_v_interactive-map-cards{
+    max-width: 90%;
+    margin: auto;
+  }
+}

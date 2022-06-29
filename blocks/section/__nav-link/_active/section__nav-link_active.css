@@ -1,4 +1,8 @@
-
 .section__nav-link_active {
   color: #0C5FBA;
+  fill: #0C5FBA;
+}
+
+.section__nav-link_active svg {
+  transform: rotate(45deg);
 }

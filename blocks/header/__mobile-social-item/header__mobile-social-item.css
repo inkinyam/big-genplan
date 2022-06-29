@@ -2,6 +2,18 @@
 .header__mobile-social-item {
   margin-right: 32px;
   fill:#FFFFFF; 
+  text-decoration: none;
+  align-items: center;
+}
+
+.header__mobile-social-item svg {
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  line-height: 21;
+  align-self: center;
+  justify-self: center;
+
 }
 
 .header__mobile-social-item:last-of-type {

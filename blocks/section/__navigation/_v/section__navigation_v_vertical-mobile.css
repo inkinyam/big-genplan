@@ -1,0 +1,11 @@
+.section__navigation_v_vertical-mobile {
+  flex-direction: row;
+}
+
+
+@media screen and (max-width: 900px) {
+  .section__navigation_v_vertical-mobile {
+    flex-direction: column;
+    align-content: center;
+  }
+}

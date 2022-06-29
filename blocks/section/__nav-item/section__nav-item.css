@@ -1,0 +1,29 @@
+/*для корректного отображения в мобильной версии (переставляем элементы)*/
+.section__nav-item-project {
+  order: 0;
+}
+
+.section__nav-item-map {
+  order: 2;
+}
+
+.section__nav-item-journal {
+  order: 33;
+}
+
+
+@media screen and (max-width: 900px) {
+  .section__nav-item-project {
+    order: 0;
+  }
+  
+  .section__nav-item-map {
+    order: 33;
+  }
+  
+  .section__nav-item-journal {
+    order: 2;
+  }
+  
+
+}

@@ -1,0 +1,15 @@
+.section__mobile-navigation {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 0 0 16px 0;
+  margin: 0 5% 32px 5%;
+  border-bottom: 1px solid #9FA4BF;
+}
+
+
+@media screen and (min-width: 900px) {
+  .section__mobile-navigation{
+    display: none;
+  }
+}

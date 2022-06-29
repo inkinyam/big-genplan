@@ -1,0 +1,9 @@
+.section__mobile-choosed {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 24px 0 0;
+  min-width: 100px;
+  transition: all 0.5s ease;
+}

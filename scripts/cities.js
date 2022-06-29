@@ -1,4 +1,6 @@
 /*навигация по CITIES*/
+
+/*смена блоков проекты/публикации/интерактивные карты*/
 let citiesProjectLink = document.querySelector('.citiesProject');
 let citiesMapLink     = document.querySelector('.citiesMap');
 let citiesJournalLink = document.querySelector('.citiesJournal');
@@ -36,4 +38,15 @@ citiesJournalLink.addEventListener('click', ()=> {
   citiesProjectSection.classList.remove('section_open');
   citiesMapSection.classList.remove('section_open');
   citiesJournalSection.classList.add('section_open');
+})
+
+/*разворачивание мобильного меню*/
+let showMoreCityButton = document.querySelector('.section__mobile-more');
+let activeCity = document.querySelector('.section__mobile-choosed');
+let cityList = document.querySelector('.cities__navigation');
+
+showMoreCityButton.addEventListener('click', ()=> {
+  showMoreCityButton.classList.toggle('section__nav-link_active');
+  activeCity.classList.toggle('section__nav-link_active');
+  cityList.classList.toggle('section_open');
 })

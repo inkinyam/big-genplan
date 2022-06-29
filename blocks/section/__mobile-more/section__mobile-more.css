@@ -1,0 +1,13 @@
+.section__mobile-more {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  min-width: 174px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  transition: all 0.5s ease;
+}
+

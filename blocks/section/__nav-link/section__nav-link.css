@@ -14,3 +14,9 @@
 .section__nav-link:active {
   color: #0C5FBA;
 }
+
+@media screen and (max-width: 900px) {
+  .section__nav-link{
+    font-size: 20px;
+  }
+}

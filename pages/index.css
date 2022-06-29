@@ -14,6 +14,7 @@
 @import url(../blocks/section/__title/section__title.css); 
 /*навигация по городам/типам проектов*/
 @import url(../blocks/section/__navigation/section__navigation.css); 
+@import url(../blocks/section/__nav-item/section__nav-item.css);
 @import url(../blocks/section/__nav-link/section__nav-link.css);
 @import url(../blocks/section/__nav-link/_active/section__nav-link_active.css);
 @import url(../blocks/section/__nav-accent/section__nav-accent.css);
@@ -21,6 +22,13 @@
 @import url(../blocks/section/__project-navigation/section__project-navigation.css);
 @import url(../blocks/section/__button/section__button.css);
 @import url(../blocks/section/__pagination/section__pagination.css);
+/*мобильный вариант навигации*/
+@import url(../blocks/section/__mobile-navigation/section__mobile-navigation.css);
+@import url(../blocks/section/__navigation/_v/section__navigation_v_vertical-mobile.css);
+@import url(../blocks/section/__mobile-choosed/section__mobile-choosed.css);
+@import url(../blocks/section/__mobile-more/section__mobile-more.css);
+
+
 
 /*HEADER*/
 @import url(../blocks/header/header.css);

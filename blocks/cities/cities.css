@@ -1,0 +1,14 @@
+.cities__navigation {
+  display: block;
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .cities__navigation {
+    display: none;
+  }
+}
+  
+
+
