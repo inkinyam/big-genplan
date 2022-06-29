@@ -1,16 +1,9 @@
 .section__pagination {
-  width: 28px;
-  color: #201E33;
-  text-align: center;
-  margin: 0;
-  transition: all 0.3s ease;
-}
-
-.section__pagination:hover {
-  color: #106CD1;
-  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
-}
-
-.section__pagination:active {
-  color: #0C5FBA;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4px;
+  margin: 40px 0 0 ;
 }

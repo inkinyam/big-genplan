@@ -22,20 +22,20 @@ forEach($mapPins, function(index, value) {
   });
   
   value.groupTimeline
-  .to(value, 0.3, {
+  .to(value, 0.9, {
     opacity: 0.05
   });
   
   // Pulse animation
   var pinTimeline = new TimelineMax({
     repeat: -1,
-    delay: randomIntFromInterval(1,30),
-    repeatDelay: randomIntFromInterval(0, 20)
+    delay: randomIntFromInterval(1,70),
+    repeatDelay: randomIntFromInterval(0, 30)
   });
     
    pinTimeline.
-    to(value.querySelector('.Pin-back'), 0.7, {
-      scale: 10,
+    to(value.querySelector('.Pin-back'), 4, {
+      scale: 15,
       transformOrigin: 'center center',
       opacity: 0
     }); 

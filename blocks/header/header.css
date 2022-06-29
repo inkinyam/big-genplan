@@ -1,5 +1,5 @@
 .header {
-  margin: auto;
+  
   max-width: 1440px;
   min-width: 320px;
 
@@ -8,4 +8,12 @@
               0 4.78px 10.63px rgba(131, 139, 163, 0.07),
               0 9.86px 21.9px rgba(131, 139, 163, 0.07),
               0 27px 60px rgba(131, 139, 163, 0.07);
+}
+
+.header-wr {
+  max-width: 1440px;
+  min-width: 320px;
+  padding-bottom: 80px;
+  overflow: hidden;
+  margin: auto;
 }

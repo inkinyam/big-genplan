@@ -5,7 +5,7 @@
   
   max-width: 1440px;
   min-width: 320px;
-  margin: 80px auto;
+  margin: 0 auto 80px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -17,6 +17,10 @@
 
 .wrapper_v_cities {
   row-gap: 0;
-  margin: 68px auto 32px;
+  margin: 12px auto 32px;
+}
 
+.wrapper_v_journal {
+  row-gap: 0;
+  margin: 0 auto 0;
 }

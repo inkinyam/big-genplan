@@ -42,7 +42,7 @@ citiesJournalLink.addEventListener('click', ()=> {
 
 /*разворачивание мобильного меню*/
 let showMoreCityButton = document.querySelector('.section__mobile-more');
-let activeCity = document.querySelector('.section__mobile-choosed');
+let activeCity = document.querySelector('.section__mobile-selected');
 let cityList = document.querySelector('.cities__navigation');
 
 showMoreCityButton.addEventListener('click', ()=> {

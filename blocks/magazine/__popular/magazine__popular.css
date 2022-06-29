@@ -1,0 +1,22 @@
+.magazine__popular {
+  margin: 60px auto 0;
+  background-color: #F0F0F4;
+  padding: 80px 0 80px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.magazine__popular .links {
+  top: 114px;
+  right: 5%;
+}
+
+.magazine__popular .links__select {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .magazine__popular .links {
+    display: none;
+  }
+}

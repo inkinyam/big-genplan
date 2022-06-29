@@ -1,9 +1,0 @@
-.section__project-navigation {
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-  align-items: center;
-  justify-content: center;
-  column-gap: 4px;
-  margin: 40px 0 0 ;
-}

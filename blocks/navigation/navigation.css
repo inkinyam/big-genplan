@@ -1,0 +1,13 @@
+.navigation {
+  display: block;
+}
+
+
+@media screen and (max-width: 900px) {
+  .navigation {
+    display: none;
+  }
+}
+  
+
+

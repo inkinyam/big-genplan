@@ -1,0 +1,40 @@
+.section__pagination-item {
+  width: 28px;
+  color: #201E33;
+  text-align: center;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+.section__pagination-item:hover {
+  color: #106CD1;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+}
+
+.section__pagination-item:active {
+  color: #0C5FBA;
+}
+
+.section__pagination-filler {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .section__pagination-item:nth-of-type(4) {
+    display: none;
+  }
+  .section__pagination-item:nth-of-type(5) {
+    display: none;
+  }
+  .section__pagination-item:nth-of-type(6) {
+    display: none;
+  }
+  
+  .section__pagination-item:nth-of-type(7) {
+    display: none;
+  }
+
+  .section__pagination-filler {
+    display: block;
+  }
+}

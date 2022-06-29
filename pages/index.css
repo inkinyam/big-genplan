@@ -1,14 +1,12 @@
 @import url(../vendors/normalize.css);
 @import url(../vendors/fonts.css);
 
-
 /*PAGE*/
 @import url(../blocks/page/page.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/wrapper/wrapper.css);
 
 /*SECTION*/
-@import url(../blocks/section/section.css); /*вспомогательная хрень для определения границ секции*/
 @import url(../blocks/section/_open/section_open.css); /*для открытия каких-либо блоков*/
 /*заголовок секции любой*/
 @import url(../blocks/section/__title/section__title.css); 
@@ -18,16 +16,16 @@
 @import url(../blocks/section/__nav-link/section__nav-link.css);
 @import url(../blocks/section/__nav-link/_active/section__nav-link_active.css);
 @import url(../blocks/section/__nav-accent/section__nav-accent.css);
-/*навигационные кнопки в любой секции*/
-@import url(../blocks/section/__project-navigation/section__project-navigation.css);
-@import url(../blocks/section/__button/section__button.css);
+/*пагинация в любой секции*/
+
 @import url(../blocks/section/__pagination/section__pagination.css);
+@import url(../blocks/section/__pagination-item/section__pagination-item.css);
+@import url(../blocks/section/__pagination-button/section__pagination-button.css);
 /*мобильный вариант навигации*/
 @import url(../blocks/section/__mobile-navigation/section__mobile-navigation.css);
 @import url(../blocks/section/__navigation/_v/section__navigation_v_vertical-mobile.css);
-@import url(../blocks/section/__mobile-choosed/section__mobile-choosed.css);
+@import url(../blocks/section/__mobile-selected/section__mobile-selected.css);
 @import url(../blocks/section/__mobile-more/section__mobile-more.css);
-
 
 
 /*HEADER*/
@@ -193,4 +191,23 @@
 
 /*ПОДКЛЮЧАЕМ СТИЛИ СТРАНИЦ*/
 
-@import url(../pages/cities/cities.css);
+@import url(../blocks/cities/cities.css);
+
+/*DESCRIPTION*/
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/description/__title/description__title.css);
+
+/* страница CITIES*/
+@import url(../blocks/cities/__project/cities__project.css);
+@import url(../blocks/cities/__map/cities__map.css);
+@import url(../blocks/cities/__journal/cities__journal.css);
+@import url(../blocks/cities/__map-cards/cities__map-cards.css);
+
+@import url(../blocks/navigation/navigation.css);
+
+/* страница JOURNAl*/
+@import url(../blocks/magazine/magazine.css);
+@import url(../blocks/magazine/__popular/magazine__popular.css);
+@import url(../blocks/magazine/__title/magazine__title.css);
+@import url(../blocks/magazine/__show-more-popular/magazine__show-more-popular.css);
