@@ -36,7 +36,7 @@ new ChiefSlider('.interviews_slider', {
 
 new ChiefSlider('.lead_slider', {
                                   loop: true,
-                                  autoplay: false,
+                                  autoplay: true,
                                   interval: 7000,
                                   swipe: true,
                                   refresh: false
