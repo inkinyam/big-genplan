@@ -13,7 +13,11 @@
 .header-wr {
   max-width: 1440px;
   min-width: 320px;
-  padding-bottom: 80px;
+  padding: 40px 20px 80px;
   overflow: hidden;
   margin: auto;
+}
+
+.main_header {
+  padding: 0;
 }

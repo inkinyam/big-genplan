@@ -3,6 +3,7 @@
   justify-items: center;
   grid-template-columns: 1fr 1fr ;
   grid-template-rows: 84px min-content 1fr ;
+  max-height: 840px;
 }
 
 .card_v_project-cards-right {

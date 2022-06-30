@@ -23,4 +23,5 @@
 .wrapper_v_journal {
   row-gap: 0;
   margin: 0 auto 0;
+  position: relative;
 }

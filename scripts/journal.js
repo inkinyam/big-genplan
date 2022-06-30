@@ -1,7 +1,7 @@
-let openFilterButton = document.querySelector('.magazine_filter');
-let showAllButton = document.querySelector('.magazine_all');
+const openFilterButton = document.querySelector('.magazine_filter');
+const showAllButton = document.querySelector('.magazine_all');
 
-let filterSection = document.querySelector('.magazine_navigation');
+const filterSection = document.querySelector('.magazine_navigation');
 
 openFilterButton.addEventListener('click', ()=>{
   filterSection.classList.toggle('section_open');

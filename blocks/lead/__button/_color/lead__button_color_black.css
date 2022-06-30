@@ -1,0 +1,14 @@
+.lead__button_color_black {
+  background-color: #201E33;
+  color:white;
+}
+
+.lead__button_color_black:hover{
+  background-color: #313041;
+  color: white;
+}
+
+.lead__button_color_black:active{
+  background-color: #F9F9F9;
+  color:black;
+}

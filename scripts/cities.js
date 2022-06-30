@@ -1,13 +1,13 @@
 /*навигация по CITIES*/
 
 /*смена блоков проекты/публикации/интерактивные карты*/
-let citiesProjectLink = document.querySelector('.citiesProject');
-let citiesMapLink     = document.querySelector('.citiesMap');
-let citiesJournalLink = document.querySelector('.citiesJournal');
+const citiesProjectLink = document.querySelector('.citiesProject');
+const citiesMapLink     = document.querySelector('.citiesMap');
+const citiesJournalLink = document.querySelector('.citiesJournal');
 
-let citiesProjectSection = document.querySelector('.cities__project');
-let citiesMapSection = document.querySelector('.cities__map');
-let citiesJournalSection = document.querySelector('.cities__journal');
+const citiesProjectSection = document.querySelector('.cities__project');
+const citiesMapSection = document.querySelector('.cities__map');
+const citiesJournalSection = document.querySelector('.cities__journal');
 
 
 citiesProjectLink.addEventListener('click', ()=> {
@@ -41,9 +41,9 @@ citiesJournalLink.addEventListener('click', ()=> {
 })
 
 /*разворачивание мобильного меню*/
-let showMoreCityButton = document.querySelector('.section__mobile-more');
-let activeCity = document.querySelector('.section__mobile-selected');
-let cityList = document.querySelector('.cities__navigation');
+const showMoreCityButton = document.querySelector('.section__mobile-more');
+const activeCity = document.querySelector('.section__mobile-selected');
+const cityList = document.querySelector('.navigation');
 
 showMoreCityButton.addEventListener('click', ()=> {
   showMoreCityButton.classList.toggle('section__nav-link_active');

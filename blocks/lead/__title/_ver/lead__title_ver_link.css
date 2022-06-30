@@ -1,0 +1,24 @@
+.lead__title_ver_link {
+  display: flex;
+  font-size: 40px;
+  line-height: 40px;
+  display: flex;
+  flex-direction: row;
+  max-width: 1100px;
+   flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 16px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.lead__title_ver_link a {
+  margin: 0;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.lead__title_ver_link a:hover {
+  text-decoration: none;
+  color: #201E33;
+}

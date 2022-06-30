@@ -17,11 +17,11 @@
 </head>
 <body class="page">
 <!--HEADER-->
-<header class="header-wr">
+<header class="header-wr main_header">
   <div class="header">
   <!-- десктопная версия -->
     <div class="header_ver_desctop">
-      <div class="header__logo">
+      <a class="header__logo" href="index.html">
           <svg width="74" height="74" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.461 17.034L14.6376 17.8325L9.40527 12.3227L10.3083 11.471L14.1064 15.4902L12.9909 8.91571L13.8142 8.11719L19.0467 13.627L18.1436 14.4787L14.3454 10.4595L15.461 17.034Z" fill="#201E33"/>
             <path d="M20.0249 12.9104L16.333 6.28265L17.422 5.67045L18.989 8.46527L22.0434 6.73514L20.4764 3.94032L21.5654 3.32812L25.2837 9.95585L24.1948 10.5681L22.5746 7.69337L19.5202 9.4235L21.1138 12.2982L20.0249 12.9104Z" fill="#201E33"/>
@@ -49,14 +49,14 @@
             <path d="M37.666 25.1455H36.3633V49.0659H37.666V25.1455Z" fill="#201E33"/>
             <path d="M25.9523 25.1455H24.6494V49.0659H25.9523V25.1455Z" fill="#201E33"/>
           </svg>
-      </div>
+      </a>
       <ul class="header__nav">
         <li class="header__nav-element"><a href="#" class="header__link">Институт</a></li>
         <li class="header__nav-element"><a href="#" class="header__link">Проекты</a></li>
         <li class="header__nav-element"><a href="#" class="header__link">Услуги</a></li>
         <li class="header__nav-element"><a href="#" class="header__link">Магазин</a></li>
         <li class="header__nav-element"><a href="#" class="header__link">Мой город</a></li>
-        <li class="header__nav-element"><a href="#" class="header__link">Журнал</a></li>
+        <li class="header__nav-element"><a  href="./pages/journal-page.html" class="header__link">Журнал</a></li>
         <li class="header__nav-element"><a href="#" class="header__link">Контакты</a></li>
         <li class="header__link">
           <a href="#" class="header__link">
@@ -92,7 +92,7 @@
           <a href="#" class="header__mobile-menu-item">услуги</a>
           <a href="#" class="header__mobile-menu-item">магазин</a>
           <a href="#" class="header__mobile-menu-item">мой город</a>
-          <a href="#" class="header__mobile-menu-item">журнал</a>
+          <a href="./pages/journal-page.html" class="header__mobile-menu-item">журнал</a>
           <a href="#" class="header__mobile-menu-item">контакты</a>
           <a href="#" class="header__mobile-menu-item">справочник</a>
           <a href="#" class="header__mobile-menu-item">раздел</a>
@@ -123,39 +123,154 @@
   <main class="main">
     <!--LEAD-->
     <section class="lead">
-      <a class="lead__container" href="" target="_blank">
-        <div class="lead__content">
-          <h1 class="lead__title">Город 2100</h1>
-          <p class="lead__description">будущее глазами архитекторов, писателей и художников</p>
-          <div class="lead__buttons-block">
 
-            <div class="lead__control-buttons">
-              <button class="lead__button lead__button_v_left">
-                <svg width="28" height="28" viewBox="0 0 28 28"  xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="14" cy="14" r="13.5" fill="inherit" stroke="inherit"/>
-                  <path d="M12.9497 9.10006L7.99992 14.0498L12.9497 18.9996" stroke="inherit"/>
-                  <path d="M8.74807 14.0508L19.7471 14.0508" stroke="inherit"/>
-                </svg>
-              </button>
-                
-              <button class="lead__button lead__button_v_right">
-                <svg width="28" height="28" viewBox="0 0 28 28"  xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="14" cy="14" r="13.5" fill="inherit" stroke="inherit"/>
-                  <path d="M14.7974 9.10006L19.7472 14.0498L14.7974 18.9996" stroke="inherit"/>
-                  <path d="M18.999 14.0508L8 14.0508" stroke="inherit"/>
-                </svg>
-              </button>
+      <div class="slider lead_slider">
+        <div class="slider__container">
+          <div class="slider__wrapper">
+            <div class="slider__items">
+
+              <div class="slider__item">
+                <div class="lead__container" href="" target="_blank">
+                  <div class="lead__content">
+                    <h1 class="lead__title lead__title_ver_white">Город 2100</h1>
+                    <p class="lead__description lead__title_ver_white">будущее глазами архитекторов, писателей и художников</p>
+                    <div class="lead__buttons-block">
+                      <button class="lead__button lead__button_v_more lead__button_color_white">Узнать подробнее</button>
+                    </div>
+                  </div>
+                  <img class="lead__figure" src="./images/figure1.png" >
+                  <img class="lead__img" src="./images/lian-big.png" >
+                </div>
+              </div>
+
+              <div class="slider__item">
+                <div class="lead__container" href="" target="_blank">
+                  <div class="lead__content">
+                    <h1 class="lead__title lead__title_ver_dark">Создаем решения для людей</h1>
+                    <p class="lead__description lead__title_ver_dark">список услуг институт генплана</p>
+                    <div class="lead__buttons-block">
+                      <button class="lead__button lead__button_v_more lead__button_color_black">Узнать подробнее</button>
+                    </div>
+                  </div>
+                  <img class="lead__figure" src="./images/figure2.png" >
+                  <img class="lead__img" src="./images/lian-big2.jpg" >
+                </div>
+              </div>
+
+              <div class="slider__item">
+                <div class="lead__container" href="" target="_blank">
+                  <div class="lead__content">
+                    <h1 class="lead__title lead__title_ver_white">Стажировка</h1>
+                    <p class="lead__description lead__title_ver_white"> и практика 2022 в институте генплана москвы</p>
+                    <div class="lead__buttons-block">
+                      <button class="lead__button lead__button_v_more lead__button_color_white">Узнать подробнее</button>
+                    </div>
+                  </div>
+                  <img class="lead__figure" src="./images/figure4.png" >
+                  <img class="lead__img" src="./images/lian-big4.jpg" >
+                </div>
+              </div>
+
+              <div class="slider__item">
+                <div class="lead__container" href="" target="_blank">
+                  <div class="lead__content">
+                    <h1 class="lead__title lead__title_ver_dark">«МОЙ ГОРОД»</h1>
+                    <p class="lead__description lead__title_ver_dark"> интерактивная карта идея для разработчиков генеральных планов</p>
+                    <div class="lead__buttons-block">
+                      <button class="lead__button lead__button_v_more lead__button_color_black">Узнать подробнее</button>
+                    </div>
+                  </div>
+                  <img class="lead__figure" src="./images/figure3.png" >
+                  <img class="lead__img" src="./images/lian-big3.jpg" >
+                </div>
+              </div>
+
+              <div class="slider__item">
+                <div class="lead__container" href="" target="_blank">
+                  <div class="lead__content">
+                    <h1 class="lead__title lead__title_ver_link">
+                      <a href="#"> территориальное планирование</a>
+                      <a href="#"> архитектура</a>
+                      <a href="#"> транспорт</a>
+                      <a href="#"> инженерия</a>
+                      <a href="#"> экономика</a>
+                      <a href="#"> социология</a>
+                      <a href="#"> история и культура</a>
+                      <a href="#"> экология и природа</a>
+                    </h1>
+                    <div class="lead__buttons-block">
+<!--                       <div class="lead__control-buttons">
+                        <button class="lead__button lead__button_v_left">
+                          <svg width="28" height="28" viewBox="0 0 28 28"  xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="14" cy="14" r="13.5" fill="inherit" stroke="inherit"/>
+                            <path d="M12.9497 9.10006L7.99992 14.0498L12.9497 18.9996" stroke="inherit"/>
+                            <path d="M8.74807 14.0508L19.7471 14.0508" stroke="inherit"/>
+                          </svg>
+                        </button>
+                          
+                        <button class="lead__button lead__button_v_right">
+                          <svg width="28" height="28" viewBox="0 0 28 28"  xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="14" cy="14" r="13.5" fill="inherit" stroke="inherit"/>
+                            <path d="M14.7974 9.10006L19.7472 14.0498L14.7974 18.9996" stroke="inherit"/>
+                            <path d="M18.999 14.0508L8 14.0508" stroke="inherit"/>
+                          </svg>
+                        </button>
+                      </div> -->
+                      <button class="lead__button lead__button_v_more lead__button_color_white">Узнать подробнее</button>
+                    </div>
+                  </div>
+                  <img class="lead__figure" src="./images/figure4.png" >
+                  <img class="lead__img" src="./images/lian-big4.jpg" >
+                </div>
+              </div>
+
+              <div class="slider__item">
+                <div class="lead__container" href="" target="_blank">
+                  <div class="lead__content">
+                    <h1 class="lead__title lead__title_ver_dark">город 2100</h1>
+                    <p class="lead__description lead__title_ver_dark"> будущее глазами архитекторов, писателей и художников</p>
+                    <div class="lead__buttons-block">
+                      <button class="lead__button lead__button_v_more lead__button_color_black">Узнать подробнее</button>
+                    </div>
+                  </div>
+                  <img class="lead__figure" src="./images/figure5.png" >
+                  <img class="lead__img" src="./images/lian-big5.jpg" >
+                </div>
+              </div>
+
+              <div class="slider__item">
+                <div class="lead__container" href="" target="_blank">
+                  <div class="lead__content">
+                    <h1 class="lead__title lead__title_ver_dark">в Улан-Удэ</h1>
+                    <p class="lead__description lead__title_ver_dark"> стартовал сбор идей по развитию городской агломерации</p>
+                    <div class="lead__buttons-block">
+                      <button class="lead__button lead__button_v_more lead__button_color_black">Узнать подробнее</button>
+                    </div>
+                  </div>
+                  <img class="lead__figure" src="./images/figure6.png" >
+                  <img class="lead__img" src="./images/lian-big6.jpg" >
+                </div>
+              </div>
             </div>
-            <button class="lead__button lead__button_v_more">Узнать подробнее</button>
-          </div>
+          </div>  
+        </div>  
+        <a href="#" class="slider__control" data-slide="prev"></a>
+        <a href="#" class="slider__control" data-slide="next"></a>
+        <ol class="slider__indicators">
+          <li data-slide-to="0"></li>
+          <li data-slide-to="1"></li>
+          <li data-slide-to="2"></li>
+          <li data-slide-to="3"></li>
+          <li data-slide-to="4"></li>
+          <li data-slide-to="5"></li>
+          <li data-slide-to="6"></li>
 
-        </div>
-       
-        <img class="lead__img" src="./images/lian-big.png" >
-        <img class="lead__figure" src="./images/figure1.png" >
-      </a>
-       
 
+        </ol>  
+      </div>  
+
+       
+      
     </section>
 
      <!-- блок основного контента ограниченного по ширине -->
@@ -1256,5 +1371,6 @@
   <script type="module" src="index.js"></script>
   <script type="module" src="./scripts/mainPage.js"></script>
   <script type="module" src="./scripts/map-animation.js"></script>
+  <script type="module" src="./vendors/three.js"></script>
 </body>
 </html>

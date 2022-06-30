@@ -7,13 +7,19 @@
 }
 
 .magazine__popular .links {
-  top: 114px;
+  top: 28px;
   right: 5%;
 }
 
 .magazine__popular .links__select {
   margin-right: 0;
 }
+
+.magazine__popular .journal__cards {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 
 @media screen and (max-width: 900px) {
   .magazine__popular .links {

@@ -1,10 +1,10 @@
 .lead__buttons-block {
   display: flex;
   flex-direction: row;
-  margin-top: 42px;
+  margin: 42px auto 0;
   justify-content: center;
-  width: 100%;
-  padding-right: 64px;
+  width: 90%;
+
 }
 
 

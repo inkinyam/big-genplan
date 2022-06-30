@@ -62,6 +62,11 @@
 @import url(../blocks/lead/__content/lead__content.css);
 @import url(../blocks/lead/__img/lead__img.css);
 @import url(../blocks/lead/__title/lead__title.css);
+
+@import url(../blocks/lead/__title/_ver/lead__title_ver_dark.css);
+@import url(../blocks/lead/__title/_ver/lead__title_ver_link.css);
+@import url(../blocks/lead/__title/_ver/lead__title_ver_white.css);
+
 @import url(../blocks/lead/__description/lead__description.css);
 @import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__buttons-block/lead__buttons-block.css);
@@ -70,6 +75,9 @@
 @import url(../blocks/lead/__button/_v/lead__button_v_more.css);
 @import url(../blocks/lead/__button/_v/lead__button_v_left.css);
 @import url(../blocks/lead/__button/_v/lead__button_v_right.css);
+@import url(../blocks/lead/__button/_color/lead__button_color_black.css);
+@import url(../blocks/lead/__button/_color/lead__button_color_white.css);
+
 
 /*SPETIAL*/
 @import url(../blocks/special/speсial.css);

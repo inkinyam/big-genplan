@@ -1,21 +1,5 @@
 import Form from "./scripts/form.js";
 
-/*
-  //подключаем swiper для отображения картинок в слайдере
-const swiper = new Swiper('.mySwiper', {
-  loop: true,
-  pagination: {
-    el: ".swiper__pagination",
-    type: "fraction",
-  },
-  navigation: {
-    nextEl: ".swiper__button_type_next",
-    prevEl: ".swiper__button_type_prev",
-  },
-  centeredSlides:true
-});
- */
-
 //переменные для открытия мобильного меню
 const openMobilMenuButton   = document.querySelector('.header__mobile-button');
 const mobilHeaderMenu       = document.querySelector('.header__mobile-menu');

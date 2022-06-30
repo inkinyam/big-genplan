@@ -1,18 +1,18 @@
 
 
-let locationDescr = document.querySelector('.map__text');
+const locationDescr = document.querySelector('.map__text');
 
 const forEach = function(array, callback, scope) {
-  for (var i = 0; i < array.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     callback.call(scope, i, array[i]); // passes back stuff we need
   }
 };
 
-var randomIntFromInterval = function(min,max) {
+let randomIntFromInterval = function(min,max) {
   return Math.floor(Math.random()*(max-min+1)+min);
 }
 
-var $mapPins = document.querySelectorAll('#Map-svg a');
+const $mapPins = document.querySelectorAll('#Map-svg a');
 
 // Setup timelines attached to each map pin
 forEach($mapPins, function(index, value) {
@@ -27,7 +27,7 @@ forEach($mapPins, function(index, value) {
   });
   
   // Pulse animation
-  var pinTimeline = new TimelineMax({
+  let pinTimeline = new TimelineMax({
     repeat: -1,
     delay: randomIntFromInterval(1,70),
     repeatDelay: randomIntFromInterval(0, 30)

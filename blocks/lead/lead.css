@@ -4,5 +4,11 @@
   width: 100%;
 }
 
+.lead_slider {
+  grid-row: 1;
+  grid-column: 1;
+  margin: auto;
+  width: 100%;
+}
 
 

@@ -13,7 +13,7 @@
     <div class="header">
     <!-- десктопная версия -->
       <div class="header_ver_desctop">
-        <div class="header__logo">
+        <a class="header__logo" href="../index.html">
             <svg width="74" height="74" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M15.461 17.034L14.6376 17.8325L9.40527 12.3227L10.3083 11.471L14.1064 15.4902L12.9909 8.91571L13.8142 8.11719L19.0467 13.627L18.1436 14.4787L14.3454 10.4595L15.461 17.034Z" fill="#201E33"/>
               <path d="M20.0249 12.9104L16.333 6.28265L17.422 5.67045L18.989 8.46527L22.0434 6.73514L20.4764 3.94032L21.5654 3.32812L25.2837 9.95585L24.1948 10.5681L22.5746 7.69337L19.5202 9.4235L21.1138 12.2982L20.0249 12.9104Z" fill="#201E33"/>
@@ -41,14 +41,14 @@
               <path d="M37.666 25.1455H36.3633V49.0659H37.666V25.1455Z" fill="#201E33"/>
               <path d="M25.9523 25.1455H24.6494V49.0659H25.9523V25.1455Z" fill="#201E33"/>
             </svg>
-        </div>
+        </a>
         <ul class="header__nav">
           <li class="header__nav-element"><a href="#" class="header__link">Институт</a></li>
           <li class="header__nav-element"><a href="#" class="header__link">Проекты</a></li>
           <li class="header__nav-element"><a href="#" class="header__link">Услуги</a></li>
           <li class="header__nav-element"><a href="#" class="header__link">Магазин</a></li>
           <li class="header__nav-element"><a href="#" class="header__link">Мой город</a></li>
-          <li class="header__nav-element"><a href="#" class="header__link">Журнал</a></li>
+          <li class="header__nav-element"><a  href="./pages/journal-page.html" class="header__link">Журнал</a></li>
           <li class="header__nav-element"><a href="#" class="header__link">Контакты</a></li>
           <li class="header__link">
             <a href="#" class="header__link">
@@ -84,7 +84,7 @@
             <a href="#" class="header__mobile-menu-item">услуги</a>
             <a href="#" class="header__mobile-menu-item">магазин</a>
             <a href="#" class="header__mobile-menu-item">мой город</a>
-            <a href="#" class="header__mobile-menu-item">журнал</a>
+            <a href="./pages/journal-page.html" class="header__mobile-menu-item">журнал</a>
             <a href="#" class="header__mobile-menu-item">контакты</a>
             <a href="#" class="header__mobile-menu-item">справочник</a>
             <a href="#" class="header__mobile-menu-item">раздел</a>
@@ -127,7 +127,7 @@
       </div>
 
       <div class="navigation">
-        <ul class="section__navigation section__navigation_v_vertical-mobile">
+        <ul class="section__navigation section__navigation_v_vertical-mobile cities__list-cities">
             <li class="section__nav-item">
               <a href="" class="section__nav-link">
                 Москва <span class="section__nav-accent">79</span>
@@ -266,7 +266,7 @@
               </h3>
               <p class="card__text">Два новых моста через Москву-реку позволят вывести пешеходную и велосипедную инфраструктуру районов на новый уровень, городскую среду ждет обновление.</p>
               <div class="card__img-wrapper">
-                <img src="../../images/project-1.png" alt="Интервью" class="card__img">
+                <img src="../images/project-1.png" alt="Интервью" class="card__img">
               </div>
             </li>
 
@@ -281,7 +281,7 @@
               </h3>
               <p class="card__text">Для обеспечения устойчивого и эффективного развития города на долгосрочную перспективу в 2020 году подготовлен проект нового генерального плана городского округа «Город Уфа» до 2040 года. Сейчас проект документа проходит предварительные согласования.</p>
               <div class="card__img-wrapper">
-                <img src="../../images/project-2.png" alt="Интервью" class="card__img">
+                <img src="../images/project-2.png" alt="Интервью" class="card__img">
               </div>
             </li>
 
@@ -296,7 +296,7 @@
               </h3>
               <p class="card__text">Проект культурно-образовательного кластера в Коммунарке – это реализация загородного и городского типа  университетского кампуса.</p>
               <div class="card__img-wrapper">
-                <img src="../../images/project-3.png" alt="Интервью" class="card__img">
+                <img src="../images/project-3.png" alt="Интервью" class="card__img">
               </div>
             </li>
           </ul>
@@ -354,25 +354,25 @@
             </li>
           </ul> 
 
-          <div class="section__project-navigation">
-            <button class="section__button section__button_v_left">
+          <div class="section__pagination">
+            <button class="section__pagination-button section__pagination-button_v_left">
               <svg width="28" height="28" viewBox="0 0 28 28"  xmlns="http://www.w3.org/2000/svg">
                 <circle cx="14" cy="14" r="13.5" fill="inherit" stroke="inherit"/>
                 <path d="M12.9497 9.10006L7.99998 14.0498L12.9497 18.9996" stroke="inherit"/>
                 <path d="M8.74813 14.0508L19.7471 14.0508" stroke="inherit"/>
               </svg>
             </button> 
-            <p class="section__pagination">1</p>
-            <p class="section__pagination">2</p>
-            <p class="section__pagination">3</p>
+            <p class="section__pagination-item">1</p>
+            <p class="section__pagination-item">2</p>
+            <p class="section__pagination-item">3</p>
             <p class="section__pagination-filler"> ... </p>
-            <p class="section__pagination">4</p>
-            <p class="section__pagination">5</p>
-            <p class="section__pagination">6</p>
-            <p class="section__pagination">7</p>
-            <p class="section__pagination">8</p>
-            <p class="section__pagination">9</p>
-            <button class="section__button section__button_v_right">
+            <p class="section__pagination-item">4</p>
+            <p class="section__pagination-item">5</p>
+            <p class="section__pagination-item">6</p>
+            <p class="section__pagination-item">7</p>
+            <p class="section__pagination-item">8</p>
+            <p class="section__pagination-item">9</p>
+            <button class="section__pagination-button section__pagination-button_v_right">
               <svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="14" cy="14" r="13.5" fill="inherit" stroke="inherit"/>
                 <path d="M14.7974 9.10006L19.7472 14.0498L14.7974 18.9996" stroke="inherit"/>
@@ -393,7 +393,7 @@
                   <p class="card__date">12.08.22</p>
                 </div>   
                 <div class="card__img-wrapper">
-                  <img src="../../images/journal-cards-1.png" alt="Мероприятие" class="card__img">
+                  <img src="../images/journal-cards-1.png" alt="Мероприятие" class="card__img">
                 </div>
                 <h3 class="card__title">Подземная галерея соединит здания Пушкинского музея в Москве</h3>
                 <p class="card__text">27 января 2021 года прошло заседание Клуба BIM-Лидеров в проектировании объектов транспортной 
@@ -409,7 +409,7 @@
                   <p class="card__date">12.08.22</p>
                 </div>
                 <div class="card__img-wrapper">
-                  <img src="../../images/journal-cards-2.png" alt="Мероприятие" class="card__img">
+                  <img src="../images/journal-cards-2.png" alt="Мероприятие" class="card__img">
                 </div>
                 <h3 class="card__title">Бирюлевская линия сделает метро доступнее для более 700 тысяч москвичей</h3>
                 <p class="card__text">Бирюлевская линия метрополитена пройдет через семь столичных районов и сделает метро доступнее 
@@ -425,7 +425,7 @@
                 <p class="card__date">12.08.22</p>
               </div>
               <div class="card__img-wrapper">
-                <img src="../../images/journal-cards-3.png" alt="Мероприятие" class="card__img">
+                <img src="../images/journal-cards-3.png" alt="Мероприятие" class="card__img">
               </div>
               <h3 class="card__title">Метро придет в районы Москвы, где скоростного транспорта еще нет</h3>
               <p class="card__text">27 января 2021 года прошло заседание Клуба BIM-Лидеров в проектировании объектов транспортной  инфраструктуры. Мероприятие 
@@ -441,7 +441,7 @@
                   <p class="card__date">12.08.22</p>
                 </div>   
                 <div class="card__img-wrapper">
-                  <img src="../../images/journal-cards-1.png" alt="Мероприятие" class="card__img">
+                  <img src="../images/journal-cards-1.png" alt="Мероприятие" class="card__img">
                 </div>
                 <h3 class="card__title">Подземная галерея соединит здания Пушкинского музея в Москве</h3>
                 <p class="card__text">27 января 2021 года прошло заседание Клуба BIM-Лидеров в проектировании объектов транспортной 
@@ -457,7 +457,7 @@
                   <p class="card__date">12.08.22</p>
                 </div>
                 <div class="card__img-wrapper">
-                  <img src="../../images/journal-cards-2.png" alt="Мероприятие" class="card__img">
+                  <img src="../images/journal-cards-2.png" alt="Мероприятие" class="card__img">
                 </div>
                 <h3 class="card__title">Бирюлевская линия сделает метро доступнее для более 700 тысяч москвичей</h3>
                 <p class="card__text">Бирюлевская линия метрополитена пройдет через семь столичных районов и сделает метро доступнее 
@@ -473,7 +473,7 @@
                 <p class="card__date">12.08.22</p>
               </div>
               <div class="card__img-wrapper">
-                <img src="../../images/journal-cards-3.png" alt="Мероприятие" class="card__img">
+                <img src="../images/journal-cards-3.png" alt="Мероприятие" class="card__img">
               </div>
               <h3 class="card__title">Метро придет в районы Москвы, где скоростного транспорта еще нет</h3>
               <p class="card__text">27 января 2021 года прошло заседание Клуба BIM-Лидеров в проектировании объектов транспортной  инфраструктуры. Мероприятие 

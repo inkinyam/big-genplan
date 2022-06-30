@@ -26,10 +26,20 @@ allProjectButton.addEventListener('click', ()=> {
 new ChiefSlider('.interviews_slider', {
                                         loop: true,
                                         autoplay: true,
-                                        interval: 10000,
+                                        interval: 7000,
                                         swipe: true,
                                         refresh: false
                                     }
 );
 
+/*инициализация слайдера для блока LEAD*/
+
+new ChiefSlider('.lead_slider', {
+                                  loop: true,
+                                  autoplay: false,
+                                  interval: 7000,
+                                  swipe: true,
+                                  refresh: false
+                                }
+);
 
