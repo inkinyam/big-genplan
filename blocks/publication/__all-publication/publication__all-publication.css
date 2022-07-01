@@ -1,0 +1,16 @@
+.publication__all-publication {
+  color: #A7A6B5;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.publication__all-publication:hover {
+  color: #7a7a86;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+}
+
+.publication__all-publication:active {
+  color: #5A596E;
+}

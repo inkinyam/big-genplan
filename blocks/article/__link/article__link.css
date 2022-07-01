@@ -1,0 +1,12 @@
+.article__link {
+  color: #2D8BF1;
+  text-decoration: none;
+}
+
+.article__link:hover {
+  color: #106CD1;
+}
+
+.article__link:active {
+  color: #0C5FBA;
+}

@@ -1,0 +1,21 @@
+
+.publication__share-link {
+  display: block;
+  text-decoration: none;
+  padding: 0;
+   margin: 0;
+   line-height: 20px;
+   align-self: center;
+   font-size: 0;
+   fill:#A7A6B5;
+}
+
+.publication__share-link:hover {
+   fill:#106CD1;
+   cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+}
+
+.publication__share-link:active {
+  fill:#0C5FBA;
+
+}

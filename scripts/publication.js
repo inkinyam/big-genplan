@@ -1,6 +1,6 @@
-/*инициализация слайдера для блока LEAD*/
+/*инициализация слайдера для блока ARTICLE*/
 
-new ChiefSlider('.article_slider', {
+new ChiefSlider('.article__slider', {
                                     loop: true,
                                     autoplay: true,
                                     interval: 7000,

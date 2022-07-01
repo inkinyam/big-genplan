@@ -1,0 +1,15 @@
+.article__slider {
+  margin-bottom: 16px;
+}
+
+ 
+.article__slider .slider__indicators li{
+  border-top: 9px solid transparent;
+  border-bottom: 4px solid transparent;
+  
+}
+
+.article__slider img {
+  width: 100%;
+  height: auto;
+}

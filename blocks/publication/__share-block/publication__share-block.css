@@ -1,0 +1,7 @@
+.publication__share-block {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+ }
+ 

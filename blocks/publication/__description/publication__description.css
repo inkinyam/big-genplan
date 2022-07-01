@@ -1,0 +1,19 @@
+.publication__description {
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: 'Lora';
+  max-width: 755px;
+  margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .publication__description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+
+  }
+}

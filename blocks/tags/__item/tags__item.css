@@ -1,0 +1,7 @@
+.tags__item {
+  width: fit-content;
+  text-align: center;
+  background-color: #F6F6F7;
+  border-radius: 2px;
+  box-shadow: 0 0.96px 2.06px rgba(131, 139, 163, 0.1);
+}

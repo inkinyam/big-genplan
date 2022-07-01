@@ -1,0 +1,11 @@
+
+.publication__footer {
+  max-width: 1312px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 0.5px solid rgba(167, 166, 181, 0.2);
+  flex-wrap: wrap;
+}

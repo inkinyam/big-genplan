@@ -1,0 +1,8 @@
+.publication__header-container {
+  background: rgba(22, 120, 226, 30%);
+  padding: 5%;
+  max-width: 1440px;
+  height: 100%;
+  align-self: center;
+  margin: auto;
+}

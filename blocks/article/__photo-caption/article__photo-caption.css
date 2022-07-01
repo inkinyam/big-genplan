@@ -1,0 +1,16 @@
+.article__photo-caption {
+  color:#5A596E;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: 'Lora';
+  margin: 4px 0 0;
+  display: block;
+}
+
+@media screen and (max-width: 960px) {
+  .article__photo-caption {
+    display: none;
+
+  }
+}

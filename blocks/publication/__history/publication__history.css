@@ -1,0 +1,31 @@
+.publication__history {
+  width: 334px;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  line-height: 24px;
+  
+}
+
+.publication__main, .publication__separator {
+  color: white;
+  text-decoration: none;
+  margin-right: 4px;
+}
+
+.publication__history .card__info {
+  color: white;
+  margin: 0;
+}
+
+.publication__history .card__filler{
+ border-bottom: 1px solid white;
+}
+
+
+@media screen and (max-width:600px) {
+  .publication__history {
+    flex-wrap: wrap;
+    width:100%;
+  }
+}

@@ -1,0 +1,19 @@
+ 
+.tags__link {
+  color: #6990BA;
+  font-family: 'Lora';
+  font-size: 16px;
+  line-height: 34px;
+  font-weight: 400;
+  padding: 0 12px;
+  text-decoration: none;
+}
+
+.tags__link:hover {
+  color: #7E7D90;
+}
+
+
+.tags__link:active {
+  color: #5A596E;
+}

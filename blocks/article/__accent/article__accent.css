@@ -1,0 +1,18 @@
+.article__accent {
+  text-transform: uppercase;
+  color: #201E33;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: 'Circe';
+  max-width: 614px;
+  margin: 0 auto 40px;
+  text-align: justify;
+}
+
+
+@media screen and (max-width: 960px) {
+  .article__accent {
+    line-height: 26px;
+  }
+}

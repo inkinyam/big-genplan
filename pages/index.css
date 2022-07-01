@@ -222,5 +222,30 @@
 
 /*страница статьи из journal*/
 
+/*блок publication*/
 @import url(../blocks/publication/publication.css);
+@import url(../blocks/publication/__description/publication__description.css);
+@import url(../blocks/publication/__header-container/publication__header-container.css);
+@import url(../blocks/publication/__header/publication__header.css);
+@import url(../blocks/publication/__history/publication__history.css);
+@import url(../blocks/publication/__title/publication__title.css);
+@import url(../blocks/publication/__footer/publication__footer.css);
+@import url(../blocks/publication/__all-publication/publication__all-publication.css);
+@import url(../blocks/publication/__read-time/publication__read-time.css);
+@import url(../blocks/publication/__share-block/publication__share-block.css);
+@import url(../blocks/publication/__share-link/publication__share-link.css);
+@import url(../blocks/publication/__share/publication__share.css);
+
+/*блок article*/
 @import url(../blocks/article/article.css);
+@import url(../blocks/article/__accent/article__accent.css);
+@import url(../blocks/article/__link/article__link.css);
+@import url(../blocks/article/__photo-caption/article__photo-caption.css);
+@import url(../blocks/article/__text/article__text.css);
+@import url(../blocks/article/__slider/article__slider.css);
+
+/*блок tags*/
+@import url(../blocks/tags/tags.css);
+@import url(../blocks/tags/__link/tags__link.css);
+@import url(../blocks/tags/__item/tags__item.css);
+@import url(../blocks/tags/__container/tags__container.css);
