@@ -5,7 +5,6 @@ const allProjectButton     = document.querySelector('.links__all');
 const favoriteProject = document.querySelector('.project__favorites');
 const allProject = document.querySelector('.project__all');
 
-
 favoriteProjectButton.addEventListener('click', ()=> {
   favoriteProject.classList.add('project_open');
   allProject.classList.remove('project_open');
@@ -21,8 +20,18 @@ allProjectButton.addEventListener('click', ()=> {
 }) 
 
 
-/*инициализация слайдера для блока INTERVIEW*/
+/*инициализация слайдера для блока LEAD*/
+new ChiefSlider('.lead_slider', {
+                                  loop: true,
+                                  autoplay: true,
+                                  interval: 7000,
+                                  swipe: true,
+                                  refresh: false
+                                }
+);
 
+
+/*инициализация слайдера для блока INTERVIEW*/
 new ChiefSlider('.interviews_slider', {
                                         loop: true,
                                         autoplay: true,
@@ -32,14 +41,6 @@ new ChiefSlider('.interviews_slider', {
                                     }
 );
 
-/*инициализация слайдера для блока LEAD*/
 
-new ChiefSlider('.lead_slider', {
-                                  loop: true,
-                                  autoplay: true,
-                                  interval: 7000,
-                                  swipe: true,
-                                  refresh: false
-                                }
-);
+
 
