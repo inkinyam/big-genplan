@@ -1,0 +1,11 @@
+
+.quotes__author {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #201E33;
+  margin: 0;
+  text-align: center;
+}

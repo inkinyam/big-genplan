@@ -21,3 +21,10 @@
 .main_header {
   padding: 0;
 }
+
+@media screen and (max-width: 900px) {
+  .header-wr {
+    padding: 0;
+  }
+  
+}

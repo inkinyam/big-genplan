@@ -1,0 +1,12 @@
+.quotes__text {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #201E33;
+  margin: 32px auto 40px;
+  max-width: 644px;
+
+}

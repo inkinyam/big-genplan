@@ -1,0 +1,10 @@
+.numbers__number {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #E5EEFF;
+  text-align: center;
+}

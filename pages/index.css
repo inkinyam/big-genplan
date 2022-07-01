@@ -1,5 +1,6 @@
 @import url(../vendors/normalize.css);
 @import url(../vendors/fonts.css);
+@import url(../vendors/chiefSlider/chief-slider.css);
 
 /*PAGE*/
 @import url(../blocks/page/page.css);
@@ -220,9 +221,7 @@
 @import url(../blocks/magazine/__title/magazine__title.css);
 @import url(../blocks/magazine/__show-more-popular/magazine__show-more-popular.css);
 
-/*страница статьи из journal*/
-
-/*блок publication*/
+/*блок PUBLICATION*/
 @import url(../blocks/publication/publication.css);
 @import url(../blocks/publication/__description/publication__description.css);
 @import url(../blocks/publication/__header-container/publication__header-container.css);
@@ -236,7 +235,7 @@
 @import url(../blocks/publication/__share-link/publication__share-link.css);
 @import url(../blocks/publication/__share/publication__share.css);
 
-/*блок article*/
+/*блок ARTICLE*/
 @import url(../blocks/article/article.css);
 @import url(../blocks/article/__accent/article__accent.css);
 @import url(../blocks/article/__link/article__link.css);
@@ -244,8 +243,30 @@
 @import url(../blocks/article/__text/article__text.css);
 @import url(../blocks/article/__slider/article__slider.css);
 
-/*блок tags*/
+/*блок TAGS*/
 @import url(../blocks/tags/tags.css);
 @import url(../blocks/tags/__link/tags__link.css);
 @import url(../blocks/tags/__item/tags__item.css);
 @import url(../blocks/tags/__container/tags__container.css);
+
+
+/*блок QOUTE*/
+@import url(../blocks/quotes/quotes.css);
+@import url(../blocks/quotes/__author-job/quotes__author-job.css);
+@import url(../blocks/quotes/__author/quotes__author.css);
+@import url(../blocks/quotes/__description/quotes__description.css);
+@import url(../blocks/quotes/__img-wrapper/quotes__img-wrapper.css);
+@import url(../blocks/quotes/__img/quotes__img.css);
+@import url(../blocks/quotes/__quote/quotes__quote.css);
+@import url(../blocks/quotes/__text/quotes__text.css);
+
+/*страница INSTITUT*/
+@import url(../blocks/institut/institut.css);
+
+/*блок NUMBERS*/
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/numbers/__years/numbers__years.css);
+@import url(../blocks/numbers/__container/numbers__container.css);
+@import url(../blocks/numbers/__description/numbers__description.css);
+@import url(../blocks/numbers/__number/numbers__number.css);
+@import url(../blocks/numbers/__title/numbers__title.css);

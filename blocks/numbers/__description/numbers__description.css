@@ -1,0 +1,11 @@
+.numbers__description {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #E5EEFF;
+  margin: 0;
+  max-width: 180px;
+  text-align: center;
+}

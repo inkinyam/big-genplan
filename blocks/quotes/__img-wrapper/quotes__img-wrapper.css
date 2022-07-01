@@ -1,0 +1,7 @@
+.quotes__img-wrapper {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 8px;
+}

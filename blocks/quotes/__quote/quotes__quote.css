@@ -1,0 +1,21 @@
+.quotes__quote {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 744px;
+  margin: 0 auto;
+}
+
+.quotes__quote::before {
+  content: url(../../../images/q1.svg);
+  position: absolute;
+  top: 150px;
+  left: -32px;
+}
+
+.quotes__quote::after {
+  content: url(../../../images/q2.svg);
+  position: absolute;
+  bottom: 4px;
+  right: -32px;
+}
