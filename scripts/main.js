@@ -24,7 +24,7 @@ allProjectButton.addEventListener('click', ()=> {
 new ChiefSlider('.lead_slider', {
                                   loop: true,
                                   autoplay: true,
-                                  interval: 7000,
+                                  interval: 5000,
                                   swipe: true,
                                   refresh: false
                                 }
@@ -35,7 +35,7 @@ new ChiefSlider('.lead_slider', {
 new ChiefSlider('.interviews_slider', {
                                         loop: true,
                                         autoplay: true,
-                                        interval: 7000,
+                                        interval: 5000,
                                         swipe: true,
                                         refresh: false
                                     }

@@ -97,31 +97,82 @@
   z-index: 15;
   display: flex;
   justify-content: center;
-  margin-top: 0;
-  margin-right: 15%;
-  margin-bottom: 0;
-  margin-left: 15%;
-  padding-left: 0;
+  margin: 0 auto;
+  padding: 0;
   list-style: none;
+  align-items: center;
 }
 
 .slider__indicators li {
   flex: 0 1 auto;
   box-sizing: content-box;
-  width: 30px;
-  height: 5px;
-  margin-right: 3px;
-  margin-left: 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 15px 3px;
   text-indent: -999px;
-  background-color: rgba(156, 203, 255, 50%);
+  background-color: #ffffff;
   background-clip: padding-box;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  cursor: pointer;
+  cursor: url(../../images/Cursor\ –\ Hand.svg), pointer;
+  transition: all 0.4s ease-out;
+}
+
+.slider__indicators li:hover {
+  background-color: #106CD1;
 }
 
 .slider__indicators li.active {
-  background-color: rgba(45, 139, 241, 90%);
+  background-color: #0C5FBA;
 }
 
+/*Вариации для различных блоков*/
 
+/*блок интервью, главная страница*/
+.interviews .slider__indicators {
+  margin: 0 50% 5px 30%;
+}
+
+.interviews .slider__indicators li {
+  background-color: #A7A6B5;
+}
+
+.interviews .slider__indicators li:hover {
+  background-color: #106CD1;
+}
+
+.interviews .slider__indicators li.active {
+  background-color: #0C5FBA;
+  border: none;
+}
+
+/*блок слайдер, страница с публикацией*/
+.article__slider .slider__indicators {
+  position: relative;
+}
+
+.article__slider .slider__indicators li{
+  margin: 10px 3px;
+  background-color: #A7A6B5;
+}
+
+.article__slider .slider__indicators li:hover {
+  background-color: #106CD1;
+}
+
+.article__slider .slider__indicators li.active {
+  background-color: #0C5FBA;
+
+}
+
+/*блок цитат, страница Института*/
+.quotes_slider .slider__indicators li{
+  background-color: #A7A6B5;
+}
+
+.quotes_slider .slider__indicators li:hover {
+  background-color: #106CD1;
+}
+
+.quotes_slider .slider__indicators li.active {
+  background-color: #0C5FBA;
+}

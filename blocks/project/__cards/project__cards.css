@@ -5,3 +5,10 @@
   gap: 40px;
   margin: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .project__cards{
+    gap: 64px;
+    margin-bottom: 64px;
+  }
+}

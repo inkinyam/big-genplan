@@ -514,77 +514,82 @@
       </div>
     </section>
     
-      <!-- блок FORM -->
-    <section class="form-section">
-      <form class="form" id="contactForm" 
-                        data-validate-url="https://genplanmos.ru/integration/form/validate/" 
-                        method="POST" 
-                        action="https://genplanmos.ru/integration/form/send/"
-                        novalidate>
-        <h2 class="form__title">контактные данные отправителя обращения</h2>
-    
-        <div class="form__input-group">
-          <label class="form__label" for="name">Фамилия Имя Отчество*</label>
-          <input class="form__input item" id="name" type="text" value="" maxlength="50" required>
-          <span class="form__err-name form__err ">dsdsd</span>
-        </div>
-    
-        <div class="form__input-group">
-          <label class="form__label" for="email">E-mail*</label>
-          <input class="form__input item" id="email" type="email" value="" placeholder="" maxlength="30" required>
-          <span class="form__err-email form__err"></span>
-        </div>
-    
-        <div class="form__input-group">
-          <label class="form__label" for="phone">Телефон*</label>
-          <input class="form__input item" id="phone" type="phone" value="" placeholder="" maxlength="30" required>
-          <span class="form__err-phone form__err"></span>
-        </div>
+  <!-- блок FORM -->
+  <section class="form-section">
+    <form class="form" id="contactForm" 
+                      data-validate-url="https://genplanmos.ru/integration/form/validate/" 
+                      method="POST" 
+                      action="https://genplanmos.ru/integration/form/send/"
+                      novalidate>
+      <h2 class="form__title">контактные данные отправителя обращения</h2>
+  
+      <div class="form__input-group">
+        <label class="form__label" for="name">Фамилия Имя Отчество*</label>
+        <input class="form__input item" id="name" type="text" value="" maxlength="50" required>
+        <span class="form__err-name form__err ">dsdsd</span>
+      </div>
+  
+      <div class="form__input-group">
+        <label class="form__label" for="email">E-mail*</label>
+        <input class="form__input item" id="email" type="email" value="" placeholder="" maxlength="30" required>
+        <span class="form__err-email form__err"></span>
+      </div>
+  
+      <div class="form__input-group">
+        <label class="form__label" for="phone">Телефон*</label>
+        <input class="form__input item" id="phone" type="phone" value="" placeholder="" maxlength="30" required>
+        <span class="form__err-phone form__err"></span>
+      </div>
+      
+      <h2 class="form__title">содержание обращения</h2>
+  
+      <div class="form__input-group">
+        <label class="form__label" for="type">Тип обращения*</label>
+        <select class="form__input item form__select" id="type"  required> 
+          <option class="form__input-value"> </option>
+          <option class="form__input-value">Работа сайта</option>
+          <option class="form__input-value">Стажировка и карьера</option>
+          <option class="form__input-value">Запрос в пресс-службу</option>
+          <option class="form__input-value">Другое</option>
+        </select>
+        <span class="form__err-type form__err"></span>
+      </div>
         
-        <h2 class="form__title">содержание обращения</h2>
-    
-        <div class="form__input-group">
-          <label class="form__label" for="type">Тип обращения*</label>
-          <select class="form__input item form__select" id="type"  required> 
-            <option class="form__input-value"> </option>
-            <option class="form__input-value">Работа сайта</option>
-            <option class="form__input-value">Стажировка и карьера</option>
-            <option class="form__input-value">Запрос в пресс-службу</option>
-            <option class="form__input-value">Другое</option>
-          </select>
-          <span class="form__err-type form__err"></span>
-        </div>
-          
-        <div class="form__input-group">
-          <label class="form__label" for="subject">Тема обращения*</label>
-          <input class="form__input item" id="subject" type="text" value="" placeholder="" maxlength="30" required>
-          <span class="form__err-subject form__err"></span>
-        </div>
-        
-        <div class="form__input-group">
-          <label class="form__label" for="message">Содержание обращения*</label>
-          <textarea class="form__input item" id="message"  value="" placeholder=""  required></textarea>
-          <span class="form__err-message form__err"></span>
-        </div>
-    
-        <div class="form__check-box">
+      <div class="form__input-group">
+        <label class="form__label" for="subject">Тема обращения*</label>
+        <input class="form__input item" id="subject" type="text" value="" placeholder="" maxlength="30" required>
+        <span class="form__err-subject form__err"></span>
+      </div>
+      
+      <div class="form__input-group">
+        <label class="form__label" for="message">Содержание обращения*</label>
+        <textarea class="form__input item" id="message"  value="" placeholder=""  required></textarea>
+        <span class="form__err-message form__err"></span>
+      </div>
+  
+      <div class="form__check-box">
+
+        <label class="form__check-label" for="consent">
           <input class="form__check item" type="checkbox" value="0" id="consent" required>
-          <span class="form__check-description" >Нажимая на кнопку, вы даете согласие на обработку своих персональных данных в соответствии с <a class="form__link">Политикой ГАУ «Институт Генплана Москвы»</a> и принимаете <a class="form__link">Пользовательское соглашение</a>.</span>
-        </div>
-        <span class="form__err-consent form__err"></span>
-        <div class="form__button-box">
-          <p class="form__button-caption">Отправить заявку</p>
-          <button class="form__submit" type="submit">
-            <svg width="66" height="66" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="33" cy="33" r="32.5" transform="rotate(-90 33 33)" />
-              <path d="M33.0014 24.0015L41.9999 33L33.0014 41.9985" stroke="inherit"/>
-              <path d="M42 33L24 33" stroke="inherit"/>
-            </svg>     
-          </button>
-        </div>
-        <p class="form__message "></p>
-      </form>
-    </section>
+          <span></span>
+        </label>
+
+        <span class="form__check-description" >Нажимая на кнопку, вы даете согласие на обработку своих персональных данных в соответствии с <a class="form__link">Политикой ГАУ «Институт Генплана Москвы»</a> и принимаете <a class="form__link">Пользовательское соглашение</a>.</span>
+      </div>
+      <span class="form__err-consent form__err"></span>
+      <div class="form__button-box">
+        <p class="form__button-caption">Отправить заявку</p>
+        <button class="form__submit" type="submit">
+          <svg width="66" height="66" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="33" cy="33" r="32.5" transform="rotate(-90 33 33)" />
+            <path d="M33.0014 24.0015L41.9999 33L33.0014 41.9985" stroke="inherit"/>
+            <path d="M42 33L24 33" stroke="inherit"/>
+          </svg>     
+        </button>
+      </div>
+      <p class="form__message "></p>
+    </form>
+  </section>
   </main>
   
   

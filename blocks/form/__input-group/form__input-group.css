@@ -5,6 +5,18 @@
   flex-direction: column;
 }
 
+.form__input-group:nth-of-type(4)  .form__input{
+  background-position:  bottom 50% right 24px;
+}
+
 .form__input-group:nth-of-type(6) .form__label_active {
   top: -28px;
+}
+
+.form__input-group:hover .form__input{
+  border-bottom: 1px solid #605D7C;
+}
+
+.form__input-group:hover  .form__label{
+  color: #605D7C;
 }

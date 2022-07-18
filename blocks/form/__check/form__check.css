@@ -1,4 +1,63 @@
 .form__check {
-  margin: 8px 8px 0 0;
-  transition: all 0.2s ease-in-out;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+  margin: 0;
+	padding: 0;
+  border: 1px solid #6990BA;
+  background-color: #F6F6F7;
+	outline: none;
+	transition: all 0.3s ease;
+	cursor: pointer;
+  
+}
+
+.form__check-label {
+	display: block;
+	margin: 8px 8px 0 0;
+  position: relative;
+}
+
+/* Hover */
+.form__check-label input[type=checkbox]:hover {
+	border: 1px solid #106CD1;
+}
+
+/* checked */
+.form__check-label input[type=checkbox]:checked {
+	background-color: #2D8BF1;
+  border: 1px solid #2D8BF1;
+}
+
+/* checked hover */
+.form__check-label input[type=checkbox]:checked:hover {
+	background-color: #106CD1;
+  border: 1px solid #106CD1;
+}
+
+/*галочка*/
+.form__check-label input[type=checkbox]:checked +span {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 10px;
+  height: 5px;
+  border-radius: 1px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(-45deg);
+}
+
+/* Active */
+.form__check-label input[type=checkbox]:active {
+	background-color: #0C5FBA;
+}
+
+/* Disabled */
+.form__check-label input[type=checkbox]:disabled {
+	background-color: #666;
+  border: 1px solid #666;
+	cursor: default;
 }

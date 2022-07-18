@@ -5,4 +5,15 @@
   height: 100%;
   align-self: center;
   margin: auto;
+  position: relative;
 }
+
+.publication__header::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(22, 120, 226, 30%);
+  top: 0;
+  left: 0;
+} 

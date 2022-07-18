@@ -8,15 +8,14 @@
   pointer-events: none;
 	left: 5px;
 	top: 10px;
-  transition: all 0.2s ease;
+  transition: all 0.2s ease-in-out;
   width: 226px;
 }
 
 
 .form__label_active {
 	top: -10px;
-  left: -24px;
-  transform: scale(.75);
+  font-size: 12px;
   
 	color: #6990BA;
 }

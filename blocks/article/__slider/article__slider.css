@@ -2,14 +2,14 @@
   margin-bottom: 16px;
 }
 
- 
-.article__slider .slider__indicators li{
-  border-top: 9px solid transparent;
-  border-bottom: 4px solid transparent;
-  
+.article__photo {
+  margin: 0;
 }
 
 .article__slider img {
   width: 100%;
-  height: auto;
+  height: 538px;
+  object-fit: cover;
+  object-position: center;
 }
+

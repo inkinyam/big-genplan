@@ -12,6 +12,7 @@
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
+  transform: perspective(10px) translateZ(0);
   transition: all 0.2s ease-in-out;
 }
 

@@ -1,7 +1,7 @@
 .form__err {
   visibility: hidden;
   color: #EB4F2C;
-  font-size: 18px;
+  font-size: 16px;
   min-height: 40px;
   margin: 8px 0 0 3px;
 }
