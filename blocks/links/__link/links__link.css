@@ -12,9 +12,7 @@
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
-  transform: perspective(10px) translateZ(0);
-  transition: all 0.2s ease-in-out;
-}
+ }
 
 .links__link:last-of-type {
   margin: 0;
@@ -29,8 +27,14 @@
   fill:#106CD1; 
   stroke: #F6F6F7;
   color: #605D7C;
- 
+
 }
+
+.links__link:hover svg {
+  animation: fadeIn; 
+  animation-duration: 0.5s; 
+}
+
 
 .links__link:active{
   fill: #0C5FBA;

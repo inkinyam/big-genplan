@@ -1,5 +1,3 @@
 .card {
   display: grid;
-  text-decoration: none;
-  cursor: url(../../images/Cursor\ –\ Hand.svg), pointer;
 }

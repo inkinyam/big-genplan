@@ -1,6 +1,7 @@
 @import url(../vendors/normalize.css);
 @import url(../vendors/fonts.css);
 @import url(../vendors/chiefSlider/chief-slider.css);
+@import url(../vendors/animate.css);
 
 /*PAGE*/
 @import url(../blocks/page/page.css);
@@ -79,12 +80,6 @@
 @import url(../blocks/lead/__button/_color/lead__button_color_black.css);
 @import url(../blocks/lead/__button/_color/lead__button_color_white.css);
 
-
-/*SPETIAL*/
-@import url(../blocks/special/speсial.css);
-@import url(../blocks/special/__item/spetial__item.css);
-@import url(../blocks/special/__line/spetial__line.css);
-@import url(../blocks/special/__link/spetial__link.css);
 
 /*LINKS*/
 @import url(../blocks/links/links.css);

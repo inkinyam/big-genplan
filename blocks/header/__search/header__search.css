@@ -3,17 +3,21 @@
   margin: 0;
   border: none;
   background-color: transparent;
-  fill: #000000;
-  stroke: #000000;
-}
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+  stroke: black;
+  transition: all 0.2s ease-in-out;
+ text-align: center;
+} 
 
 .header__search:hover {
   cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
-  fill: #106CD1;
-  stroke: #106CD1;
+  color: #106CD1;
 }
  
 .header__search:active {
-  fill: #0C5FBA;
-  stroke: #0C5FBA;
+  color: #0C5FBA;
 }

@@ -10,3 +10,17 @@
   max-width: 100%;
   transition: all 0.3s ease;
 }
+
+.card__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card__title:hover {
+  color: #605D7C;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+}
+
+.card__title:active {
+  color: #201E33;
+}

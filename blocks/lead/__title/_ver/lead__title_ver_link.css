@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: row;
   max-width: 1100px;
-   flex-wrap: wrap;
+  flex-wrap: wrap;
   row-gap: 16px;
   column-gap: 16px;
   margin: 0 auto;
@@ -21,4 +21,14 @@
 .lead__title_ver_link a:hover {
   text-decoration: none;
   color: #201E33;
+}
+
+@media screen and (max-width: 1240px) {
+ .lead__title_ver_link {
+  font-size: 21px;
+  line-height: 36px;
+  row-gap: 8px;
+  column-gap: 8px;
+  margin-bottom: 8px;
+ }
 }

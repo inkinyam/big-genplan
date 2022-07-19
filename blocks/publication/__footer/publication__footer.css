@@ -1,22 +1,15 @@
 
 .publication__footer {
-/*   max-width: 1440px; */
   margin: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 15px;
+  padding: 0 5%;
 
   flex-wrap: wrap;
 
-  /* border-top: 0.5px solid rgba(167, 166, 181, 0.2); */
-  box-shadow: /* 0px 109px 368px rgba(53, 54, 72, 0.71), 
-              0px 50.394px 170.138px rgba(53, 54, 72, 0.475448), 
-              0px 28.8343px 97.3488px rgba(53, 54, 72, 0.36726), 
-              0px 17.5022px 59.09px rgba(53, 54, 72, 0.303588),  */
-              0 10.5459px 35.6044px rgba(53, 54, 72, 0.259766), 
-              0 5.87261px 19.8268px rgba(53, 54, 72, 0.220356), 
+  box-shadow: 0 5.87261px 19.8268px rgba(53, 54, 72, 0.220356),  
               0 2.52577px 8.52737px rgba(53, 54, 72, 0.165455);
 
 }

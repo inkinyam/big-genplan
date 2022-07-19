@@ -1,5 +1,6 @@
 .card__img-wrapper {
   grid-area: photo;
   width: 100%;
-   overflow: hidden;
+  overflow: hidden;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
 }

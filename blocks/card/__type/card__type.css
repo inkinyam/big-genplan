@@ -1,9 +1,21 @@
 .card__type{
+  text-decoration: none;
+  color: inherit;
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
   margin: 0;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+  transition: all 0.3s ease;
 }
+
+.card__type:hover {
+ color: #106CD1;
+}
+
+.card__type:active {
+  color: #0C5FBA;
+ }
 
 
 @media screen and (max-width: 900px) {
@@ -11,3 +23,4 @@
     font-size: 18px;
    }
 }
+

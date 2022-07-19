@@ -2,7 +2,18 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="./images/favicon.ico" />
+    
+    <!-- For all browsers -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <!-- For Google and Android -->
+    <link rel="icon" type="image/png" sizes="48x48" href="./images/favicon 48x48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/favicon-192x192.png">
+    <!-- For iPad -->
+    <link rel="apple-touch-icon" type="image/png" sizes="167x167" href="./images/favicon-167x167.png">
+    <!-- For iPhone -->
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="./images/favicon-180x180.png">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ГАУ "Институт Генплана Москвы"</title>
@@ -49,28 +60,46 @@
               <path d="M25.9523 25.1455H24.6494V49.0659H25.9523V25.1455Z" fill="#201E33"/>
             </svg>
         </a>
-        <ul class="header__nav">
-          <li class="header__nav-element"><a href="./pages/institut/" class="header__link">Институт</a></li>
-          <li class="header__nav-element"><a href="#" class="header__link">Проекты</a></li>
-          <li class="header__nav-element"><a href="#" class="header__link">Услуги</a></li>
-          <li class="header__nav-element"><a href="#" class="header__link">Магазин</a></li>
-          <li class="header__nav-element"><a href="#" class="header__link">Мой город</a></li>
-          <li class="header__nav-element"><a  href="./pages/journal/" class="header__link">Журнал</a></li>
-          <li class="header__nav-element"><a href="#" class="header__link">Контакты</a></li>
-          <li class="header__link">
+
+        <div class="header__links">
+          <div class="header__big-list">
+            <ul class="header__nav ">
+              <li class="header__nav-element"><a href="./pages/institut/" class="header__link">Институт</a></li>
+              <li class="header__nav-element"><a href="#" class="header__link">Проекты</a></li>
+              <li class="header__nav-element"><a href="#" class="header__link">Услуги</a></li>
+              <li class="header__nav-element"><a href="#" class="header__link">Магазин</a></li>
+              <li class="header__nav-element"><a href="#" class="header__link">Мой город</a></li>
+              <li class="header__nav-element"><a  href="./pages/journal/" class="header__link">Журнал</a></li>
+              <li class="header__nav-element"><a href="#" class="header__link">Контакты</a></li>
+            </ul>
+         </div>
+
+          <div class="header__small-list">
+            <ul class="header__nav">
+              <li class="header__nav-element"><a href="#" class="header__link">Мой город</a></li>
+              <li class="header__nav-element"><a href="#" class="header__link">Мои кавминводы</a></li>
+              <li class="header__nav-element"><a href="#" class="header__link">Справочник</a></li>
+              <li class="header__nav-element"><a href="#" class="header__link">Форсайт</a></li>
+              <li class="header__nav-element"><a href="#" class="header__link">Взгляд на город</a></li>
+            </ul>
+          </div>
+          <div class="header__nav-spetial">
+            <a href="#" class="header__link"> Спецпроекты</a>
+            <svg width="16" height="9" viewBox="0 0 16 9" fill="none"  xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.7489 1.00082L8 7.74969L1.25113 1.00082" stroke="inherit"/>
+            </svg>
+          </div>
+
+          <p class="header__nav-element">
             <a href="#" class="header__link">
               <svg width="20" height="20" viewBox="0 0 20 20"  xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10 1C5.02944 1 1 5.02944 1 10C1 14.9706 5.02944 19 10 19C14.9706 19 19 14.9706 19 10C19 5.02944 14.9706 1 10 1ZM1.64711 10C1.64711 5.38683 5.38683 1.64711 10 1.64711C14.6132 1.64711 18.3529 5.38683 18.3529 10C18.3529 11.7681 17.8035 13.4079 16.8662 14.758C16.4678 12.2782 14.7313 10.2461 12.4211 9.42504C12.9268 8.84882 13.2333 8.09356 13.2333 7.26671C13.2333 5.45861 11.7675 3.99286 9.95944 3.99286C8.15134 3.99286 6.68558 5.45861 6.68558 7.26671C6.68558 8.1428 7.02971 8.93852 7.59016 9.52607C5.31681 10.4436 3.65144 12.5518 3.36772 15.0785C2.28851 13.6712 1.64711 11.9105 1.64711 10ZM3.9924 15.8034C5.51128 17.3754 7.64148 18.3529 10 18.3529C12.5012 18.3529 14.7456 17.2536 16.2764 15.5118C16.1336 12.8586 14.3082 10.652 11.8479 9.94136C11.3143 10.3188 10.6627 10.5406 9.95944 10.5406C9.30512 10.5406 8.69563 10.3486 8.18421 10.0179C5.76065 10.8302 4.01123 13.1116 3.9924 15.8034ZM7.353 7.26671C7.353 5.82722 8.51994 4.66028 9.95944 4.66028C11.3989 4.66028 12.5659 5.82722 12.5659 7.26671C12.5659 8.70621 11.3989 9.87315 9.95944 9.87315C9.41343 9.87315 8.90664 9.70526 8.48787 9.41829C8.45901 9.3879 8.42478 9.36335 8.38721 9.34574C7.7589 8.86985 7.353 8.11568 7.353 7.26671Z" fill="inherit" stroke="inherit" stroke-width="0.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </a>
-          </li>
-        </ul>
-        <button class="header__search">
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M18.3906 9C18.3906 13.6944 14.585 17.5 9.89062 17.5C5.1962 17.5 1.39062 13.6944 1.39062 9C1.39062 4.30558 5.1962 0.5 9.89062 0.5C14.585 0.5 18.3906 4.30558 18.3906 9Z" stroke="inherit" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M15.8906 15L18.8906 18" stroke="inherit" stroke-miterlimit="10" stroke-linejoin="round"/>
-          </svg>
-        </button>
+          </p>
+        </div>
+        
+        <button class="header__search">Поиск</button>
       </div>
       
       <!-- мобильная версия -->
@@ -260,29 +289,7 @@
 
      <!-- блок основного контента ограниченного по ширине -->
     <div class="wrapper">
-       
-  <!-- блок SPECIAL -->
-      <section class="speсial">
-        <h2 class="section__title"> Спецпроекты института</h2>
-        
-        <ul class="speсial__line">
-          <li class="speсial__item">
-            <a href="" class="speсial__link">Мой город</a>
-          </li>
-          <li class="speсial__item">
-            <a href="" class="speсial__link">Мои кавминводы</a>
-          </li>
-          <li class="speсial__item">
-            <a href="" class="speсial__link">справочник</a>
-          </li>
-          <li class="speсial__item">
-            <a href="" class="speсial__link">форсайт</a>
-          </li>
-          <li class="speсial__item">
-            <a href="" class="speсial__link">взгляд на город</a>
-          </li>
-        </ul>
-      </section>
+
 
   <!-- блок JOURNAl -->
       <section class="journal">
@@ -290,51 +297,57 @@
        
         <ul class="journal__cards">
           <li class="journal__card">
-            <a class="card card_v_journal-cards" href="">
+            <div class="card card_v_journal-cards" >
               <div class="card__info">
-                <p class="card__type">Мероприятие</p>
+                <a href="#" class="card__type">Мероприятие</a>
                 <span class="card__filler"></span>
                 <p class="card__date">12.08.22</p>
               </div>   
-              <div class="card__img-wrapper">
+              <a href="#" class="card__img-wrapper">
                 <img src="./images/journal-cards-1.png" alt="Мероприятие" class="card__img">
-              </div>
-              <h3 class="card__title">Подземная галерея соединит здания Пушкинского музея в Москве</h3>
-              <p class="card__text">27 января 2021 года прошло заседание Клуба BIM-Лидеров в проектировании объектов транспортной 
+              </a>
+              <h3 class="card__title"> <a href="#" > Подземная галерея соединит здания Пушкинского музея в Москве</a></h3>
+              <div class="card__text">
+                <p> 27 января 2021 года прошло заседание Клуба BIM-Лидеров в проектировании объектов транспортной 
                 инфраструктуры. Мероприятие завершилось традиционной церемонией награждения «BIM-компании года», которой в этом году стал Институт Генплана.</p>
-            </a>
+              </div>  
+            </div>
           </li>
 
           <li class="journal__card">
-            <a class="card card_v_journal-cards"  href="">
+            <div class="card card_v_journal-cards">
               <div class="card__info">
-                <p class="card__type">Событие</p>
+                <a href="#" class="card__type">Событие</a>
                 <span class="card__filler"></span>
                 <p class="card__date">12.08.22</p>
               </div>
-              <div class="card__img-wrapper">
+              <a href="#" class="card__img-wrapper">
                 <img src="./images/journal-cards-2.png" alt="Мероприятие" class="card__img">
+              </a>
+              <h3 class="card__title"> <a href="#" >Бирюлевская линия сделает метро доступнее для более 700 тысяч москвичей</a></h3>
+              <div class="card__text">
+                <p>Бирюлевская линия метрополитена пройдет через семь столичных районов и сделает метро доступнее 
+                  более чем для 700 тысяч москвичей. Протяженность новой линии составит 22,2 км</p>
               </div>
-              <h3 class="card__title">Бирюлевская линия сделает метро доступнее для более 700 тысяч москвичей</h3>
-              <p class="card__text">Бирюлевская линия метрополитена пройдет через семь столичных районов и сделает метро доступнее 
-                более чем для 700 тысяч москвичей. Протяженность новой линии составит 22,2 км</p>
-            </a>
+            </div>
           </li>
 
           <li class="journal__card">
-            <a class="card card_v_journal-cards"  href="">
+            <div class="card card_v_journal-cards">
               <div class="card__info">
-              <p class="card__type">Мероприятие</p>
+              <a href="#" class="card__type">Мероприятие</a>
               <span class="card__filler"></span>
               <p class="card__date">12.08.22</p>
             </div>
-            <div class="card__img-wrapper">
+            <a href="#" class="card__img-wrapper">
               <img src="./images/journal-cards-3.png" alt="Мероприятие" class="card__img">
-            </div>
-            <h3 class="card__title">Метро придет в районы Москвы, где скоростного транспорта еще нет</h3>
-            <p class="card__text">27 января 2021 года прошло заседание Клуба BIM-Лидеров в проектировании объектов транспортной  инфраструктуры. Мероприятие 
-              завершилось традиционной церемонией награждения «BIM-компании года», которой в этом году стал Институт Генплана.</p>
             </a>
+            <h3 class="card__title"> <a href="#" >Метро придет в районы Москвы, где скоростного транспорта еще нет</a></h3>
+            <div class="card__text">
+              <p>27 января 2021 года прошло заседание Клуба BIM-Лидеров в проектировании объектов транспортной  инфраструктуры. Мероприятие 
+                завершилось традиционной церемонией награждения «BIM-компании года», которой в этом году стал Институт Генплана.</p>
+            </div>
+            </div>
           </li>
         </ul> 
 
@@ -391,27 +404,6 @@
               </div>
             </div>
           </div>
-          
-          <!-- <div class="card__pagination">
-            <button class="card__button card__button_v_left slider__control"  data-slide="prev">
-              <svg width="28" height="28" viewBox="0 0 28 28"  xmlns="http://www.w3.org/2000/svg">
-                <circle cx="14" cy="14" r="13.5" stroke="inherit"/>
-                <path d="M12.9497 9.10055L7.99992 14.0503L12.9497 19" stroke="inherit"/>
-                <path d="M8.74807 14.0503L19.7471 14.0503" stroke="#inherit"/>
-              </svg> 
-            </button>
-            <span class="card__page card__page_v_current">1</span>
-            <span class="card__page">/</span>
-            <span class="card__page card__page_v_all">2</span>
-            <button class="card__button card__button_v_right slider__control" data-slide="next">
-              <svg width="28" height="28" viewBox="0 0 28 28"  xmlns="http://www.w3.org/2000/svg">
-                <circle cx="14" cy="14" r="13.5" stroke="inherit"/>
-                <path d="M14.7974 9.10055L19.7472 14.0503L14.7974 19" stroke="inherit"/>
-                <path d="M18.999 14.0503L8 14.0503" stroke="inherit"/>
-              </svg>
-            </button>
-          </div> -->
-
           <a href="#" class="slider__control" data-slide="prev"></a>
           <a href="#" class="slider__control" data-slide="next"></a>
           <ol class="slider__indicators">

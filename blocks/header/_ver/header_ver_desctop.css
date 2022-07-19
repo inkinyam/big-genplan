@@ -8,7 +8,7 @@
     margin: auto;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 960px) {
     .header_ver_desctop {
       display: none;
     }
