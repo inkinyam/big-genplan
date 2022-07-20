@@ -45,6 +45,14 @@ activator.addEventListener('mouseleave', evt => {
 })
 
 
+/*закрытие блока cookies*/
+const closeCookies = document.querySelector('.close-block');
+const cookiesBlock = document.querySelector('.cookies-block ');
+
+closeCookies.addEventListener('click', ()=> {
+  cookiesBlock.classList.add('section_closed');
+})
+
 /*инициализация слайдера для блока LEAD*/
 new ChiefSlider('.lead_slider', {
                                   loop: true,
