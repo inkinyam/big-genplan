@@ -68,6 +68,7 @@
 @import url(../blocks/lead/__title/_ver/lead__title_ver_dark.css);
 @import url(../blocks/lead/__title/_ver/lead__title_ver_link.css);
 @import url(../blocks/lead/__title/_ver/lead__title_ver_white.css);
+@import url(../blocks/lead/__title/_ver/lead__title_ver_single.css);
 
 @import url(../blocks/lead/__description/lead__description.css);
 @import url(../blocks/lead/__figure/lead__figure.css);

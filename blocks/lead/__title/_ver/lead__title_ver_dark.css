@@ -1,3 +1,13 @@
 .lead__title_ver_dark {
   color: #201E33;
 }
+
+.lead__title_ver_dark p:first-child {
+  text-align: start;
+}
+
+.lead__title_ver_dark p:nth-child(2) {
+ text-align: end;
+ align-self: flex-end;
+}
+

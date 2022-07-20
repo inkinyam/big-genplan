@@ -5,18 +5,28 @@
   line-height: 72px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 32px;
   width: 100%;
-  text-align: start;
   z-index: 2;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 320px;
 }
+
+.lead__title p {
+  margin: 0;
+}
+
+
 
 @media screen and (max-width: 1312px) {
   .lead__title{
     font-size: 56px;
     line-height: 56px;
     text-align: center;
-    margin: 0;
+
   }
 }
 

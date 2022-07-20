@@ -12,6 +12,11 @@
   justify-content: center;
 }
 
+.lead__title_ver_link p {
+  align-self: center;
+  justify-self: center;
+}
+
 .lead__title_ver_link a {
   margin: 0;
   color: white;
