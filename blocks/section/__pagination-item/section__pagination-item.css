@@ -1,9 +1,14 @@
 .section__pagination-item {
+  font-family: 'Lora', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   width: 28px;
   color: #201E33;
   text-align: center;
   margin: 0;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .section__pagination-item:hover {
@@ -11,7 +16,8 @@
   cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
 }
 
-.section__pagination-item:active {
+.section__pagination-item_v_active {
+  font-weight: 700;
   color: #0C5FBA;
 }
 

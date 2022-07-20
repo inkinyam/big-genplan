@@ -1,0 +1,125 @@
+/*сам блок целиком*/
+.cookies-block {
+  z-index: 1000;
+  max-width: 744px;
+  min-height: 196px;
+  position: fixed;
+  left: 5%;
+  bottom: 2%;
+  background-color: #fff;
+  box-shadow: 0px 27px 60px rgba(131, 139, 163, 0.15), 
+              0px 9.85544px 21.901px rgba(131, 139, 163, 0.09), 
+              0px 4.78464px 10.6325px rgba(131, 139, 163, 0.07), 
+              0px 2.34552px 5.21226px rgba(131, 139, 163, 0.07), 
+              0px 0.927421px 2.06094px rgba(131, 139, 163, 0.06);
+  
+  box-sizing: border-box;
+  padding: 32px;
+  display: flex;
+  align-items: flex-start;
+}
+
+/*заголовок*/
+.cookies-block h3 {
+  color: #b97f24;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+/*текст*/
+.cookies-block p {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #5A596E;
+  margin: 0;
+  padding: 0;
+  max-width: 644px;
+}
+
+/*ссылки и стили наведения/нажатия*/
+.cookies-block a {
+  text-decoration: none;
+  color: #2D8BF1;
+}
+
+.cookies-block a:hover {
+  color: #106CD1;
+  cursor: url(../../images/Cursor\ –\ Hand.svg), pointer;
+}
+
+.cookies-block a:active {
+  color: #0C5FBA;
+}
+
+/*кнопка закрытия и стили наведения/нажатия*/
+.close-block {
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  fill: none;
+  stroke: #201E33;
+  padding: 0;
+  margin-left: 8px;
+  transition: all 0.2s ease;
+}
+
+.close-block svg {
+  width: 28px;
+  height: 28px;
+
+}
+
+.close-block circle {
+  fill: #F6F6F7;
+  transition: all 0.2s ease;
+}
+
+/*наведение*/
+.close-block:hover {
+  cursor: url(../../images/Cursor\ –\ Hand.svg), pointer;
+  stroke: #605D7C;
+}
+
+.close-block:hover circle{
+  fill: #605D7C;
+}
+
+.close-block:hover path{
+  stroke: #F0F0F4;
+}
+
+/*нажатие*/
+.close-block:active {
+  stroke: #201E33;
+}
+
+.close-block:active circle{
+  fill: #201E33;
+}
+
+
+
+/*адаптивность*/
+@media screen and (max-width: 800px) {
+  .cookies-block {
+    width: 100%;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cookies-block {
+  padding: 20px;
+  }
+}
+
+

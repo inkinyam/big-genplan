@@ -14,11 +14,12 @@
 .card__title a {
   color: inherit;
   text-decoration: none;
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
 }
 
 .card__title:hover {
   color: #605D7C;
-  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+  
 }
 
 .card__title:active {

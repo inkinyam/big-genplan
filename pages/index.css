@@ -193,6 +193,10 @@
 
 @import url(../blocks/footer/__mobile-navigation/footer__mobile-navigation.css);
 
+
+/*блок COOKIES*/
+@import url(../blocks/cookies-block/cookies-block.css);
+
 /*ПОДКЛЮЧАЕМ СТИЛИ СТРАНИЦ*/
 
 @import url(../blocks/cities/cities.css);
