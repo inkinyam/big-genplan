@@ -1,5 +1,11 @@
 .institut__wrapper {
   row-gap: 53px;
   column-gap: 0;
-  margin: 0 auto;
+  margin: 132px auto 0; 
+}
+
+@media screen and (max-width: 1312px) {
+  .institut__wrapper {
+    margin: 112px auto 0;
+  }
 }

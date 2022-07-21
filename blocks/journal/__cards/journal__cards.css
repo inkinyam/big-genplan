@@ -8,33 +8,49 @@
   justify-content: center;
   list-style: none;
   margin: 0;
+  transition: all 0.3s ease;
 }
 
+.journal__card {
+  height: auto;
+}
 
+ 
 @media screen and (max-width: 1240px) {
-  .journal__cards {
+/*   .journal__cards {
     column-gap: 68px;
     row-gap: 40px;
     grid-template-columns: 400px 400px;
-  }
+  } */
+
+
 }
 
 @media screen and (max-width: 1023px) {
   .journal__cards {
-    column-gap: 68px;
     row-gap: 44px;
     grid-template-columns: 1fr 1fr;
   }
-}
+
+  .journal__card{
+    max-width: 400px;
+  }
+
+  .journal__card:last-child {
+    display: none;
+  }
+} 
 
 @media screen and (max-width: 767px) {
   .journal__cards {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 40px;
+    margin: 0 auto;
+  }
+
+  .journal__card:last-child {
+  display: block;
   }
 }
 
-.journal__card {
-  height: auto;
-}

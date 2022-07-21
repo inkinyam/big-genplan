@@ -29,6 +29,16 @@
 }
 
 @media screen and (max-width: 1240px) {
+  .lead__title_ver_link {
+   font-size: 32px;
+   line-height: 36px;
+   row-gap: 8px;
+   column-gap: 8px;
+   margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 760px) {
  .lead__title_ver_link {
   font-size: 21px;
   line-height: 36px;

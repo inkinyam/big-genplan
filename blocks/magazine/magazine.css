@@ -1,3 +1,5 @@
+
+
 .magazine  .links {
   display: flex;
 }
@@ -5,6 +7,18 @@
 @media screen and (max-width: 1100px) {
   .magazine  .links {
     display: none;
+  }
+  
+}
+
+
+.magazine {
+  margin-top: 180px;
+}
+
+@media screen and (max-width: 900px) {
+ .magazine{
+    margin-top: 128px;
   }
   
 }

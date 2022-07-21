@@ -1,0 +1,18 @@
+.lead__container_ver_white-black {
+  color: #201E33;
+}
+
+.lead__container_ver_white-black  .lead__button_v_more{
+  background-color: #201E33;
+  color:white;
+}
+
+.lead__container_ver_white-black  .lead__button_v_more:hover{
+  background-color: #313041;
+  color: white;
+}
+
+.lead__container_ver_white-black  .lead__button_v_more:active{
+  background-color: #F9F9F9;
+  color:black;
+} 

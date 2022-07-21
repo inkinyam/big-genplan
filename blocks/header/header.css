@@ -1,8 +1,7 @@
 .header {
-  
-  max-width: 1440px;
-  min-width: 320px;
+  width: 100vw;
 
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 0.96px 2.06px rgba(131, 139, 163, 0.06), 
               0 2.35px 5.21px rgba(131, 139, 163, 0.07), 
               0 4.78px 10.63px rgba(131, 139, 163, 0.07),
@@ -11,22 +10,20 @@
 }
 
 .header-wr {
-  max-width: 1440px;
-  min-width: 320px;
-  padding: 40px 20px 80px;
+  z-index: 99999;
+  max-width: 100%;
+  padding: 0 0 60px 0 ;
   overflow: hidden;
   margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .main_header {
   padding: 0;
 }
 
-@media screen and (max-width: 900px) {
-  .header-wr {
-    padding: 0;
-  }
-}
 
 
 .header__links {

@@ -65,7 +65,7 @@ new ChiefSlider('.lead_slider', {
 
 
 /*инициализация слайдера для блока INTERVIEW*/
-new ChiefSlider('.interviews_slider', {
+const interviewSlider = new ChiefSlider('.interviews_slider', {
                                         loop: true,
                                         autoplay: true,
                                         interval: 5000,
@@ -73,7 +73,5 @@ new ChiefSlider('.interviews_slider', {
                                         refresh: false
                                     }
 );
-
-
 
 

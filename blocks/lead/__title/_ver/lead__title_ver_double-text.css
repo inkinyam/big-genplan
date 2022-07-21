@@ -1,0 +1,15 @@
+.lead__title_ver_double-text {
+  color: inherit;
+
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lead__title_ver_double-text p:first-child {
+  text-align: start;
+}
+
+.lead__title_ver_double-text p:nth-child(2) {
+ text-align: end;
+ align-self: flex-end;
+}

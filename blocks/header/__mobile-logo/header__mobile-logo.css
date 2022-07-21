@@ -2,5 +2,5 @@
   height: 80px;
   display: flex;
   align-items: center;
-
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
 }

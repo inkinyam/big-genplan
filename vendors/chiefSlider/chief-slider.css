@@ -37,6 +37,8 @@
 /* кнопки влево и вправо */
 
 .slider__control {
+  visibility: hidden;
+  transition: all 0.5s ease;
   position: absolute;
   top: 50%;
   display: flex;
@@ -66,25 +68,26 @@
 .slider__control:focus {
   color: #fff;
   text-decoration: none;
-  
+  cursor: url(../../images/Cursor\ –\ Hand.svg), pointer;
   outline: 0;
 }
 
 .slider__control::before {
   content: "";
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 28px;
+  height: 28px;
   background: transparent no-repeat center center;
   background-size: 100% 100%;
 }
 
+
 .slider__control[data-slide="prev"]::before {
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 29 28' fill='none'><circle cx='14' cy='14' r='13.5' fill='%23F6F6F7' stroke='%23201E33'/><path d='M12.9487 9.10006L7.99894 14.0498L12.9487 18.9996' stroke='%23201E33'/><path d='M8.74709 14.0508L19.7461 14.0508' stroke='%23201E33'/></svg>");
 }
 
 .slider__control[data-slide="next"]::before {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 29 28' fill='none'><circle cx='14' cy='14' r='13.5' fill='%23F6F6F7' stroke='%23201E33'/><path d='M14.7974 9.10006L19.7472 14.0498L14.7974 18.9996' stroke='%23201E33'/><path d='M18.999 14.0508L8 14.0508' stroke='%23201E33'/></svg>");
 }
 
 /* индикаторы */
@@ -125,6 +128,8 @@
   background-color: #0C5FBA;
 }
 
+
+
 /*Вариации для различных блоков*/
 
 /*блок интервью, главная страница*/
@@ -144,6 +149,50 @@
   background-color: #0C5FBA;
   border: none;
 }
+
+
+@media screen and (max-width: 1240px) {
+  .interviews_slider .slider__item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .interviews_slider .card_v_interview-cards {
+   max-width: 85%;
+   margin: 0 auto;
+  }
+
+  .interviews .slider__indicators {
+    display: none;
+  }
+
+  .interviews .slider__control {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .interviews_slider .slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .interviews_slider .card_v_interview-cards {
+    max-width: 80%;
+  /*   margin: 0 auto; */
+  }
+
+  .interviews .slider__indicators {
+    display: flex;
+    margin: 0 50% 5px;
+  }
+
+  .interviews .slider__control {
+    display: flex;
+  }
+}
+
 
 /*блок слайдер, страница с публикацией*/
 .article__slider .slider__indicators {

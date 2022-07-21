@@ -27,6 +27,6 @@
 
 .lead__button:active{
   cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
-   stroke: #F6F6F7;
+  stroke: #F6F6F7;
   fill: #201E33;
 }

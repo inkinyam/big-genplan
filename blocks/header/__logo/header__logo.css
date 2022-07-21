@@ -1,3 +1,5 @@
 .header__logo {
-    padding: 13px 0;
+    display: block;
+    padding: 0;
+    cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
 }

@@ -1,7 +1,11 @@
 .lead {
-  margin: 0 auto;
+  margin: 90px auto 0;
   display: flex;
   width: 100%;
+}
+
+.lead:hover .slider__control  {
+  visibility: visible;
 }
 
 .lead_slider {
@@ -12,3 +16,8 @@
 }
 
 
+@media screen and (max-width: 1312px) {
+  .lead {
+    margin: 80px auto 0;
+  }
+}
