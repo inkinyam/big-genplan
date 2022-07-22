@@ -3,3 +3,37 @@
   align-items: center;
   justify-content: center;
 }
+
+.header__login {
+  font-size: 20px;
+}
+
+.header__has-elements {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon__container {
+  margin-left: 4px;
+  display: flex;
+  flex-direction: row;
+  width: 20px;
+  overflow: hidden;
+}
+
+.icon {
+  color: #201E33;
+  font-size: 20px;
+}
+
+
+.icon::before {
+  transition: all 1s ease;
+}
+
+.header__nav-element:hover .icon::before {
+  transform: rotate(-90deg);
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+}
+

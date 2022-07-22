@@ -20,30 +20,6 @@ allProjectButton.addEventListener('click', ()=> {
 }) 
 
 
-/*разворачивание доп.меню в хедер*/
-const bigHederMenu   = document.querySelector('.header__big-list');
-const smallHederMenu = document.querySelector('.header__small-list');
-const activator      = document.querySelector('.header__nav-spetial');
-
-const showSmallMenu = () => {
-  bigHederMenu.classList.add('fadeOut');
-  smallHederMenu.classList.add('fadeInRight');
-}
-
-const hideSmallMenu = (evt) => {
-  if (evt.target!=smallHederMenu||activator) {
-    bigHederMenu.classList.toggle('fadeOut');
-    smallHederMenu.classList.toggle('fadeInRight');
-  }
-
- 
-}
-
-activator.addEventListener('mouseenter', showSmallMenu);
-activator.addEventListener('mouseleave', evt => {
-  hideSmallMenu(evt);
-})
-
 
 /*закрытие блока cookies*/
 const closeCookies = document.querySelector('.close-block');

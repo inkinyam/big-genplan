@@ -3,10 +3,10 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
-  color: black;
-  stroke: black;
+  color: #201E33;
+
   transition: all 0.2s ease-in-out;
- text-align: center;
+  text-align: center;
 }
 
 .header__link:hover {
@@ -15,6 +15,7 @@
   fill: #106CD1;
   stroke: #106CD1;
 }
+
 
 .header__link:active {
   color: #0C5FBA;

@@ -4,20 +4,18 @@
     column-gap: 32px;
     list-style: none;
     padding: 0;
-    margin: 0 32px 0 0;
+    margin: 40px 0 ;
 }
 
 @media screen and (max-width: 1240px) {
   .header__nav{
     column-gap: 24px;
-    margin: 0 24px 0 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .header__nav{
     column-gap: 12px;
-    margin: 0 12px 0 0;
   }
 }
   

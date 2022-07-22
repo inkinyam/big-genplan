@@ -1,7 +1,9 @@
 @import url(../vendors/normalize.css);
 @import url(../vendors/fonts.css);
 @import url(../vendors/chiefSlider/chief-slider.css);
-@import url(../vendors/animate.css);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+
 
 /*PAGE*/
 @import url(../blocks/page/page.css);
