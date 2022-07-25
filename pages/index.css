@@ -36,7 +36,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 /*десктоп версия*/
-@import url(../blocks/header/_ver/header_ver_desctop.css);
+@import url(../blocks/header/_ver/header_ver_desktop.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__nav/header__nav.css);

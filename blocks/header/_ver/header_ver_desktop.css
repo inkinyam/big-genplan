@@ -1,4 +1,4 @@
-.header_ver_desctop{
+.header_ver_desktop{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 960px) {
-    .header_ver_desctop {
+    .header_ver_desktop {
       display: none;
     }
   }

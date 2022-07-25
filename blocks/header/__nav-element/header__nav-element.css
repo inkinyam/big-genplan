@@ -4,7 +4,7 @@
   justify-content: center;
   width: max-content;
   position: relative;
-  padding: 10px 0;
+  padding: 8px 0;
   clip-path: inset( -100vw 0 -100vw -100vw );
 
 }
