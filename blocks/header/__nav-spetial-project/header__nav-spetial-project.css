@@ -6,10 +6,34 @@
   position: absolute;
   right: -2000px;
   opacity: 0;
+  column-gap: 36px;
 }
 
 .header__nav-element:hover .header__nav-spetial-project {
-  right: 20px;
+  right: 24px;
   opacity: 1;
   transition: all 0.6s ease-out;
+  
  }
+
+
+ 
+@media screen and (max-width: 1240px) {
+  .header__nav-spetial-project {
+    column-gap: 12px;
+  }
+
+}
+
+@media screen and (max-width: 1080px) {
+  .header__nav-spetial-project {
+    width: 650px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  
+  }
+
+}
+  

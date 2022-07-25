@@ -5,7 +5,11 @@
   position: absolute;
   right: -1200px;
   opacity: 0;
-  padding-left: 100px !important;
+  padding-left: 320px !important;
+}
+
+.header__nav-login .header__link {
+  line-height: 24px;
 }
 
  .header__nav-element:hover .header__nav-login {
@@ -19,3 +23,9 @@
   padding-right: 4px;
   font-size: 18px;
  }
+
+ @media screen and (max-width: 1330px) {
+  .header__nav-login{
+    padding-left: 100px !important;
+  }
+}
