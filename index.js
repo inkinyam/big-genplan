@@ -13,7 +13,7 @@ const toggleStationMenu = () => {
   const openMobileIcon = openMobilMenuButton.querySelector('.bi');
   openMobilMenuButton.classList.toggle('header__mobile-button_opened');
   mobilHeaderLogo.classList.toggle('header__mobile-logo_opened');
-  openMobileIcon.classList.toggle('bi-justify');
+  openMobileIcon.classList.toggle('bi-list');
   openMobileIcon.classList.toggle('bi-x-lg')
 
   mobilHeader.classList.toggle('header_ver_mobile-open');
