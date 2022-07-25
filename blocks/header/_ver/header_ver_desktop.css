@@ -1,9 +1,4 @@
 .header_ver_desktop {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; */
-
     display: grid;
     justify-items: center;
     align-items: center;

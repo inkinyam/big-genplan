@@ -24,8 +24,8 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script> 
     <!-- ChiefSlider слайдеры-->
     <script defer src="vendors/chiefSlider/chief-slider.js"></script>
-    <!-- WrapGrid-->
-    <script src="https://unpkg.com/animate-css-grid@latest"></script>
+
+
         
 </head>
 <body class="page">
@@ -42,7 +42,7 @@
       </h1>
 
       <div class="header__links">
-        <ul class="header__nav ">
+        <ul class="header__nav navBar header_bar_open ">
           <li class="header__nav-element"><a href="./pages/institut/" class="header__link">Институт</a></li>
           <li class="header__nav-element"><a href="#" class="header__link">Проекты</a></li>
           <li class="header__nav-element"><a href="#" class="header__link">Услуги</a></li>
@@ -65,8 +65,15 @@
               
             </ul>
           </li>
-        </ul>        
+        </ul>    
+        
+        <div class="header__search-container">
+          <input type="text" class="header__search-input" placeholder="Поиск по сайту">
+          <a href="#" class="header__search-button">Найти</a>
+        </div>
       </div> 
+
+
       <ul class="header__nav">
         <li class="header__nav-element">
           <div class="header__has-elements">

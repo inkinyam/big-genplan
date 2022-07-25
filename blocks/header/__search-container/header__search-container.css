@@ -1,0 +1,73 @@
+.header__search-container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  align-items: center;
+  transition: all 0.3s ease-in;
+
+}
+
+.header__search-input {
+  width: 644px;
+  height: 44px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #201E33;
+  margin-right: 4px;
+  box-sizing: border-box;
+  padding-left: 8px;
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.header__search-input::placeholder {
+  color: #A7A6B5;
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  
+}
+
+.header__search-button {
+  color: white;
+  background-color: #201E33;
+  padding: 0;
+  margin: 0;
+  width: 99px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  border: none;
+  display: block;
+  text-decoration: none;
+}
+
+.header__search-button:hover {
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+  background-color: #605D7C;
+}
+
+.header__search-button:active {
+  background-color: #201E33;
+}
+
+.navBar {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  transition: all 0.3s ease-in;
+}
+
+.header_bar_open {
+  visibility: visible;
+  opacity: 1;
+  height: 95px;
+}

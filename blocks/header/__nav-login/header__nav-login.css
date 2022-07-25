@@ -6,6 +6,7 @@
   right: -1200px;
   opacity: 0;
   padding-left: 320px !important;
+  height: 60px;
 }
 
 .header__nav-login .header__link {
@@ -23,6 +24,12 @@
   padding-right: 4px;
   font-size: 18px;
  }
+
+ @media screen and (min-width: 1690px) {
+  .header__nav-login{
+    padding-left: 900px !important;
+  }
+}
 
  @media screen and (max-width: 1330px) {
   .header__nav-login{

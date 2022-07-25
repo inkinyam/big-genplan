@@ -7,6 +7,7 @@
   right: -2000px;
   opacity: 0;
   column-gap: 36px;
+ 
 }
 
 .header__nav-element:hover .header__nav-spetial-project {

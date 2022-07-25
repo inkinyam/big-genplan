@@ -48,6 +48,8 @@
 @import url(../blocks/header/__nav-spetial-project/header__nav-spetial-project.css);
 @import url(../blocks/header/__nav-login/header__nav-login.css);
 
+@import url(../blocks/header/__search-container/header__search-container.css);
+
 /*мобильная версия*/
 @import url(../blocks/header/_ver/header_ver_mobile.css);
 @import url(../blocks/header/_ver/header_ver_mobile-open.css);
