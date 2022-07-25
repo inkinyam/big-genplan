@@ -43,6 +43,11 @@
 @import url(../blocks/header/__nav-element/header__nav-element.css);
 @import url(../blocks/header/__search/header__search.css);
 
+@import url(../blocks/header/__has-elements/header__has-elements.css);
+@import url(../blocks/header/__icon-container/header__icon-container.css);
+@import url(../blocks/header/__nav-spetial-project/header__nav-spetial-project.css);
+@import url(../blocks/header/__nav-login/header__nav-login.css);
+
 /*мобильная версия*/
 @import url(../blocks/header/_ver/header_ver_mobile.css);
 @import url(../blocks/header/_ver/header_ver_mobile-open.css);

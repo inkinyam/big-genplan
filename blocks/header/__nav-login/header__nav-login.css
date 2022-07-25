@@ -1,0 +1,21 @@
+.header__nav-login {
+  height: 100%;
+  align-items: center;
+  background-color: #fff;
+  position: absolute;
+  right: -1200px;
+  opacity: 0;
+  padding-left: 100px !important;
+}
+
+ .header__nav-element:hover .header__nav-login {
+  right: 20px;
+  opacity: 1;
+  transition: all 0.4s ease-in;
+ }
+
+
+ .header__nav-login span {
+  padding-right: 4px;
+  font-size: 18px;
+ }

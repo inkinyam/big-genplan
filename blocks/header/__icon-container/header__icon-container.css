@@ -1,0 +1,29 @@
+.header__icon-container {
+  margin-left: 4px;
+  display: flex;
+  flex-direction: row;
+  width: 20px;
+  overflow: hidden;
+}
+
+/*иконки стрелочки в хедере, которые поворачиваются*/
+.icon {
+  color: #201E33;
+  font-size: 20px;
+  width: 20px;
+}
+
+.icon::before {
+  transition: all 0.3s ease;
+  width: 20px;
+}
+
+.header__nav-element:hover .icon::before {
+  transform: rotate(-90deg);
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+}
+
+/*иконка логина*/
+.header__login-icon {
+  font-size: 20px;
+}

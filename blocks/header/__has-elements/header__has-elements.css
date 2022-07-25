@@ -1,0 +1,7 @@
+.header__has-elements {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 146px;
+
+}
