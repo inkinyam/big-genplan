@@ -10,8 +10,12 @@ const showMoreButton        = document.querySelector('.header__mobile-menu-next'
 
 // функция открывающая/закрывающая меню в мобильной версии
 const toggleStationMenu = () => {
-  mobilHeaderLogo.classList.toggle('header__mobile-logo_opened');
+  const openMobileIcon = openMobilMenuButton.querySelector('.bi');
   openMobilMenuButton.classList.toggle('header__mobile-button_opened');
+  mobilHeaderLogo.classList.toggle('header__mobile-logo_opened');
+  openMobileIcon.classList.toggle('bi-justify');
+  openMobileIcon.classList.toggle('bi-x-lg')
+
   mobilHeader.classList.toggle('header_ver_mobile-open');
   mobilHeaderMenu.classList.toggle('header__mobile-menu_opened');
   //если меню открыто и мы его закрываем, скрыть доп.разделы
@@ -89,3 +93,21 @@ formInputs.forEach(item => {
   }); 
 })
 
+
+
+/*открытие и закрытие окна поиска на главной в десктопе */
+const openSearchBarButton = document.querySelector('.header__search');
+const navBar = document.querySelector('.navBar');
+const searchBar = document.querySelector('.header__search-container');
+
+const togglOpenSearchBarButton = () => {
+  const icon = openSearchBarButton.querySelector('.bi');
+   icon.classList.toggle('bi-search');
+   icon.classList.toggle('bi-x-lg')
+}
+
+openSearchBarButton.addEventListener('click', () => {
+  navBar.classList.toggle('header_bar_open');
+  searchBar.classList.toggle('header_bar_open');
+  togglOpenSearchBarButton();
+})

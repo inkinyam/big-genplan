@@ -1,0 +1,22 @@
+.header__search-button {
+  color: white;
+  background-color: #201E33;
+  padding: 0;
+  margin: 0;
+  width: 99px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  border: none;
+  display: block;
+  text-decoration: none;
+}
+
+.header__search-button:hover {
+  cursor: url(../../../images/Cursor\ –\ Hand.svg), pointer;
+  background-color: #605D7C;
+}
+
+.header__search-button:active {
+  background-color: #201E33;
+}

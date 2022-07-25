@@ -1,0 +1,25 @@
+.header__search-input {
+  width: 644px;
+  height: 44px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #201E33;
+  margin-right: 4px;
+  box-sizing: border-box;
+  padding-left: 8px;
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.header__search-input::placeholder {
+  color: #A7A6B5;
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  
+}

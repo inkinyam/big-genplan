@@ -1,3 +1,4 @@
 .header__mobile-button_opened {
-  background-image: url(../../../../images/close.svg);
+  color: #fff;
+  font-size: 20px;
 }

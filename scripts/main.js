@@ -20,7 +20,6 @@ allProjectButton.addEventListener('click', ()=> {
 }) 
 
 
-
 /*закрытие блока cookies*/
 const closeCookies = document.querySelector('.close-block');
 const cookiesBlock = document.querySelector('.cookies-block ');
@@ -28,6 +27,7 @@ const cookiesBlock = document.querySelector('.cookies-block ');
 closeCookies.addEventListener('click', ()=> {
   cookiesBlock.classList.add('section_closed');
 })
+
 
 /*инициализация слайдера для блока LEAD*/
 new ChiefSlider('.lead_slider', {
@@ -51,19 +51,3 @@ const interviewSlider = new ChiefSlider('.interviews_slider', {
 );
 
 
-
-const openSearchBarButton = document.querySelector('.header__search');
-const navBar = document.querySelector('.navBar');
-const searchBar = document.querySelector('.header__search-container');
-
-const togglOpenSearchBarButton = () => {
-  const icon = openSearchBarButton.querySelector('.bi');
-   icon.classList.toggle('bi-search');
-   icon.classList.toggle('bi-x-lg')
-}
-
-openSearchBarButton.addEventListener('click', () => {
-  navBar.classList.toggle('header_bar_open');
-  searchBar.classList.toggle('header_bar_open');
-  togglOpenSearchBarButton();
-})

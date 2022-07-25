@@ -49,6 +49,8 @@
 @import url(../blocks/header/__nav-login/header__nav-login.css);
 
 @import url(../blocks/header/__search-container/header__search-container.css);
+@import url(../blocks/header/__search-button/header__search-button.css);
+@import url(../blocks/header/__search-input/header__search-input.css);
 
 /*мобильная версия*/
 @import url(../blocks/header/_ver/header_ver_mobile.css);
